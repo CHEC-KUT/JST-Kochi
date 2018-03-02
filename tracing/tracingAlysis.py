@@ -11,6 +11,7 @@ __email__ = 'i@wangchen0413.cn'
 ************************************************
 '''
 
+import os
 import numpy as np
 import pandas as pd
 import re
@@ -22,7 +23,7 @@ import random
 from PIL import Image, ImageDraw, ImageFont
 from functools import reduce
 
-from ../util.util import *
+from util.util import *
 
 '''
 ************************************************
@@ -46,7 +47,8 @@ def tracingGraphGenerate(tracingDictPath):
 def keyPairFrequency(tracingDictPath):
     frequencyDict = {}
     x = []; y = []
-    with open(tracingDictPath, "rb") as f:
+    print(os.path.join(pklFolder, tracingDictPath))
+    with open(os.path.join(pklFolder, tracingDictPath), "rb") as f:
         tracingDict = pickle.load(f)
     plt.figure(figsize=(90, 10))
     plt.title("Key Pair Frequency")
@@ -61,8 +63,8 @@ def keyPairFrequency(tracingDictPath):
     print(reduce(lambda a,b: a + b, y))
     plt.xticks(range(len(x)), x)
     plt.bar(x, height=y, align='center')
-    plt.savefig("keyPairFrequency.jpg")
-    with open("frequencyDict.pkl", "wb") as f:
+    plt.savefig(os.path.join(graphFolder, "keyPairFrequency.jpg"))
+    with open(os.path.join(pklFolder, "frequencyDict.pkl"), "wb") as f:
         pickle.dump(frequencyDict, f)
     return frequencyDict
 

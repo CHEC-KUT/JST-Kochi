@@ -1,6 +1,7 @@
 #! /usr/bin/env/ python
 
 import random
+import os
 
 '''
 ************************************************
@@ -9,6 +10,9 @@ import random
 '''
 
 Folder = '../../PJ0009/'
+srcFolder = os.path.abspath('.')
+pklFolder = os.path.join(srcFolder, "pkl")
+graphFolder = os.path.join(srcFolder, "graph")
 
 bg = '../img/back.png'
 
