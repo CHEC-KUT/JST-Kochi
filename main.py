@@ -17,7 +17,7 @@ if __name__ == '__main__':
     #tracingDataMerge("tracingRawDict.pkl")
     #tracingGraphGenerate("tracingDict.pkl")
     #speedGraphGenerate("speedDict.pkl")
-    keyPairFrequency("tracingDict.pkl")
+    #keyPairFrequency("tracingDict.pkl")
     #tracingRangeConvergence("tracingDict.pkl")
     #tracingAverage("rangeDict.pkl")
     #tracingRangeDrawing("tracingAverageDict.pkl")

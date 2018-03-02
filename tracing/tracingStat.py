@@ -36,8 +36,15 @@ from util.util import *
 def speedComputing(k1, k0):
     p1 = xy_cm2pic(k1[1]['x'], k1[1]['y'])
     p0 = xy_cm2pic(k0[1]['x'], k0[1]['y'])
-    speed = math.sqrt((p1[0]-p0[0])**2 + (p1[1]-p0[0])**2)/(k1[1]['trialtime']-k0[1]['trialtime'])
+    speed = math.sqrt((p1[0]-p0[0])**2 + (p1[1]-p0[1])**2)/(k1[1]['trialtime']-k0[1]['trialtime'])
     return speed
+
+def derivativeComputing(k1, k0):
+    p1 = xy_cm2pic(k1[1]['x'], k1[1]['y'])
+    p0 = xy_cm2pic(k0[1]['x'], k0[1]['y'])
+    derivative = (p1[1]-p0[1]) / (p1[0]-p0[0])
+    coefficient = derivative
+    return derivative
 
 def compareChar(c1, c2):
     if len(c1) > len(c2):
@@ -109,16 +116,17 @@ def dataProcessing():
                     temSpeedList = [[],[]]; xy = []; time = []
                     lastTlogItem = j                   
                     print(keyPair)
-    with open("speedRawDict.pkl","wb") as f:
+    with open(os.path.join(pklFolder, "speedRawDict.pkl"),"wb") as f:
         pickle.dump(speedDict, f)
-    with open("tracingRawDict.pkl","wb") as k:
+    with open(os.path.join(pklFolder, "tracingRawDict.pkl"),"wb") as k:
         pickle.dump(tracingDict, k)
     print("End")
     return tracingDict, speedDict
-#tracingDict = {"user": {"mi":[[(x, y),..],[(x1, y1),..],..],..}, "user2":{...}}
+#tracingRawDict = {"user": {"mi":[[(x, y),..],[(x1, y1),..],..],..}, "user2":{...}}
+#speedRawDict = {"user": {"mi":[[[v1,...],[t1,...]],[[v2,...],[t2,...],...]]},...}
 
 def tracingDataMerge(tracingRawDictPath):
-    with open(tracingRawDictPath, "rb") as f:
+    with open(os.path.join(pklFolder, tracingRawDictPath), "rb") as f:
         tracingRawDict = pickle.load(f)
     tracingDict = {}
     for u, l in tracingRawDict.items():
@@ -132,8 +140,11 @@ def tracingDataMerge(tracingRawDictPath):
                     tracingDict[k].insert((int(u)-uid+t)*userN, j)
                 except IndexError as e:
                     print("except: " + str(e) + "******" + k + "******")
-    with open("tracingDict.pkl", "wb") as f:
+    with open(os.path.join(pklFolder, "tracingDict.pkl"), "wb") as f:
         pickle.dump(tracingDict, f)
     print("End")
     return tracingDict
+#tracingDict = {"mi":[(x, y),...],}
          
+def deriativeStatistic():
+    pass
