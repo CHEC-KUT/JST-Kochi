@@ -1,5 +1,5 @@
 # JST-Kochi
-
+```text
   pkl数据格式(TBD):
   tracingRawDict
   {"user501": {"mi":[[[(x0, y0),..],[t1,...]],
@@ -9,3 +9,4 @@
               "na":[...],...}, 
    "user502": {...},
   }
+```
