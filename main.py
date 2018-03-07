@@ -13,7 +13,7 @@ from tracing.tracingAlysis import *
 '''
 
 if __name__ == '__main__':
-    #dataProcessing()
+    dataProcessing()
     #tracingDataMerge("tracingRawDict.pkl")
     #tracingGraphGenerate("tracingDict.pkl")
     #speedGraphGenerate("speedDict.pkl")

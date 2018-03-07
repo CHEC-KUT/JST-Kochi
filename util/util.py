@@ -9,15 +9,18 @@ import os
 ************************************************
 '''
 
-Folder = '../../PJ0009/'
+Folder = os.path.abspath("./../PJ0009")
+print(Folder)
+
 srcFolder = os.path.abspath('.')
 pklFolder = os.path.join(srcFolder, "pkl")
 graphFolder = os.path.join(srcFolder, "graph")
 
 bg = '../img/back.png'
 
-fingerFolder_ = Folder + 'data/finger_/'
-tlogFolder_ = Folder + 'data/tlogs_/'
+fingerFolder_ = Folder + '/data/finger_/'
+tlogFolder_ = Folder + '/data/tlogs_/'
+fingerFixedFolder_ = Folder + '/data/finger_fixed/'
 
 tracingFolder = '../graph/tracing/'
 tracingSunFolder = '../graph/tracing-sun/'
@@ -50,7 +53,7 @@ gradient_sequence = ['#CAD6FF', '#A0CEFF', '#8CBAFF', '#669CFF', '#2698FF',
                 '#0081F6', '#0069D8', '#004ED8', '#003984', '#001D8B',
                 '#000027']
 
-timeDeviation = 120
+timeDeviation = -120
 
 '''
 ************************************************
@@ -127,15 +130,14 @@ class keyboard:
     def key2xy(self,key):
         for k in keyboard.kbkeys:
             if key == k.key:
-                return (k.left+k.right)/2, (k.top+k.bottom)/2
-        if key:
-            return False
+                return ((k.left+k.right)/2, (k.top+k.bottom)/2)
+        return False
 
 def define_ex_kb():
         kw = 130.9
         kh = 2248-2048
         keys_ = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'å', 'a', 's', 'd', 'f', 
-                 'g', 'h', 'j', 'k', 'l', 'ö', 'ä', 'z', 'x', 'c', 'v', 'b', 'n', 'm', 'B', ' ']
+                 'g', 'h', 'j', 'k', 'l', 'ö', 'ä', 'z', 'x', 'c', 'v', 'b', 'n', 'm', '<', ' ']
         xs = [566. ,   696.9,   827.8,   958.7,  1089.6,  1220.5,  1351.4, 1482.3,  1613.2,  1744.1,  1875., 
               566. ,   696.9,   827.8,   958.7,  1089.6,  1220.5,  1351.4, 1482.3,  1613.2,  1744.1,  1875.,
               740. ,   901.71428571,  1063.42857143,  1225.14285714, 1386.85714286,  1548.57142857,  1710.28571429,  1872., 1220]
