@@ -14,16 +14,17 @@ print(Folder)
 
 srcFolder = os.path.abspath('.')
 pklFolder = os.path.join(srcFolder, "pkl")
+imgFolder = os.path.join(srcFolder, "img")
 graphFolder = os.path.join(srcFolder, "graph")
 
-bg = '../img/back.png'
+bg = os.path.join(imgFolder, "back.png")
 
 fingerFolder_ = Folder + '/data/finger_/'
 tlogFolder_ = Folder + '/data/tlogs_/'
 fingerFixedFolder_ = Folder + '/data/finger_fixed/'
 
 tracingFolder = '../graph/tracing/'
-tracingSunFolder = '../graph/tracing-sun/'
+tracingSunFolder = os.path.join(graphFolder, "tracing-sun")
 tracingGraFolder = '../graph/tracing-gra/'
 speedFolder = '../graph/speed/'
 tracingRange = '../graph/tracingRange/'
@@ -130,12 +131,12 @@ class keyboard:
     def key2xy(self,key):
         for k in keyboard.kbkeys:
             if key == k.key:
-                return ((k.left+k.right)/2, (k.top+k.bottom)/2)
+                return [(k.left+k.right)/2, (k.top+k.bottom)/2]
         return False
 
 def define_ex_kb():
         kw = 130.9
-        kh = 2248-2048
+        kh = 2248-2044
         keys_ = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'å', 'a', 's', 'd', 'f', 
                  'g', 'h', 'j', 'k', 'l', 'ö', 'ä', 'z', 'x', 'c', 'v', 'b', 'n', 'm', '<', ' ']
         xs = [566. ,   696.9,   827.8,   958.7,  1089.6,  1220.5,  1351.4, 1482.3,  1613.2,  1744.1,  1875., 

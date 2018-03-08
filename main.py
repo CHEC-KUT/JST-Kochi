@@ -13,11 +13,12 @@ from tracing.tracingAlysis import *
 '''
 
 if __name__ == '__main__':
-    dataProcessing()
-    #tracingDataMerge("tracingRawDict.pkl")
-    #tracingGraphGenerate("tracingDict.pkl")
+    #dataProcessing()
+    #dataFixed()
+    #tracingDataMerge("tracingFixedDict.pkl")
+    tracingGraphGenerate("tracingDict.pkl")
     #speedGraphGenerate("speedDict.pkl")
-    #keyPairFrequency("tracingDict.pkl")
+    keyPairFrequency("tracingDict.pkl")
     #tracingRangeConvergence("tracingDict.pkl")
     #tracingAverage("rangeDict.pkl")
     #tracingRangeDrawing("tracingAverageDict.pkl")

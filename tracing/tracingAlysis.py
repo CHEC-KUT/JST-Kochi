@@ -32,22 +32,23 @@ from util.util import *
 '''
 
 def tracingGraphGenerate(tracingDictPath):
-    with open(tracingDictPath, "rb") as f:
+    with open(os.path.join(pklFolder, tracingDictPath), "rb") as f:
         tracingDict = pickle.load(f)
     for k, v in tracingDict.items():
         tracingImage = Image.open(bg)
         draw = ImageDraw.Draw(tracingImage)
         for i in range(len(v)):
             xy = v[i]
+            xy = list(map(lambda x: tuple(x), xy))
+            #print (xy)
             draw_finger_position(draw, xy, offx = 0, offy = 0, i=i)
         #tracingImage.save(tracingFolder + k + ".png")
-        tracingImage.save(tracingSunFolder + k + ".png")
+        tracingImage.save(os.path.join(tracingSunFolder, k + ".png"))
         print(k)    
 
 def keyPairFrequency(tracingDictPath):
     frequencyDict = {}
     x = []; y = []
-    print(os.path.join(pklFolder, tracingDictPath))
     with open(os.path.join(pklFolder, tracingDictPath), "rb") as f:
         tracingDict = pickle.load(f)
     plt.figure(figsize=(90, 10))

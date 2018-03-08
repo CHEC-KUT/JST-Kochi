@@ -43,7 +43,6 @@ def derivativeComputing(k1, k0):
     p1 = xy_cm2pic(k1[1]['x'], k1[1]['y'])
     p0 = xy_cm2pic(k0[1]['x'], k0[1]['y'])
     derivative = (p1[1]-p0[1]) / (p1[0]-p0[0])
-    coefficient = derivative
     return derivative
 
 def compareChar(c1, c2):
@@ -108,7 +107,7 @@ def dataProcessing():
                             lastFingerItem[1]['trialtime'] = float(lastFingerItem[1]['trialtime'].split('.')[0] +'.000')
                         if k[1]['trialtime'] <= j[1]['wordtime'] + timeDeviation and k[1]['trialtime'] > timeDeviation and k[1]['trialtime'] > lastFingerItem[1]['trialtime']:
                             iterMarker = 1
-                            temTracingList[0].append((x_cm2pic(k[1]['x']), y_cm2pic(k[1]['y']))); temTracingList[1].append(k[1]['trialtime'])
+                            temTracingList[0].append([x_cm2pic(k[1]['x']), y_cm2pic(k[1]['y'])]); temTracingList[1].append(k[1]['trialtime'])
                             lastFingerItem = k
                             #print(k[1]['trialtime'])
                         else:
@@ -125,40 +124,84 @@ def dataProcessing():
 #tracingRawDict = {"1": {"user": {"mi":[[[(x, y),..],[t,...]],[[(x1, y1),..],[t1,...]],..],..}, "user2":{...}}, "2":{...}}
 
 def dataFixed():
+    kw = 130.9/2
+    kh = 204/2
     with open(os.path.join(pklFolder, "tracingRawDict.pkl"),"rb") as f:
-        tracingRawDict = pickle.load(f)
-    for b, v in tracingRawDict:
-        for u, d in v:
-            for k, g in d:
+        tracingFixedDict = pickle.load(f)
+    for b, v in tracingFixedDict.items():
+        print(b)
+        for u, d in v.items():
+            print(u)
+            for k, g in d.items():
+                print(k)
                 for i in g:
-                    reduce(map(lambda x,y: , i[1]))
-    with open(os.path.join(pklFolder, "tracingFixedDict.pkl"), "rb") as f:
-        pickle.dump(tracingFixedDict, f)
+                    l = len(i[0])
+                    if l > 4:
+                        xfd = i[0][1][0] - i[0][0][0]
+                        xed = i[0][-2][0] - i[0][-1][0]
+                        yfd = i[0][1][1] - i[0][0][1]
+                        yed = i[0][-2][1] - i[0][-1][1]
+                        if xfd >= kw:
+                            x1 = xfd - kw
+                            i[0][1][0] = i[0][0][0] + kw
+                        elif xfd <= -kw:
+                            x1 = xfd + kw
+                            i[0][1][0] = i[0][0][0] - kw
+                        else:
+                            x1 = 0
+                        if xed >= kw:
+                            x2 = xed - kw
+                            i[0][-2][0] = i[0][-1][0] + kw
+                        elif xed <= -kw:
+                            x2 = xed + kw
+                            i[0][-2][0] = i[0][-1][0] - kw
+                        else:
+                            x2 = 0
+                        if yfd >= kh:
+                            y1 = yfd - kh
+                            i[0][1][1] = i[0][0][1] + kh
+                        elif yfd <= -kh:
+                            y1 = yfd + kh
+                            i[0][1][1] = i[0][0][1] - kh
+                        else:
+                            y1 = 0
+                        if yed >= kh:
+                            y2 = yed - kh
+                            i[0][-2][1] = i[0][-1][1] + kh
+                        elif yed <= -kh:
+                            y2 = yed + kh
+                            i[0][-2][1] = i[0][-1][1] - kh
+                        else:
+                            y2 = 0
+                        i[0][2:-3] = map(lambda x: [(1/(l-4))*(x1-x2) + x[0], (1/(l-4))*(y1-y2) + x[1]], i[0][2:-3])   
+    with open(os.path.join(pklFolder, "tracingFixedDict.pkl"), "wb") as f:
+        pickle.dump(tracingFixedDict, f)                     
     return tracingFixedDict
 
-
-
-def tracingDataMerge(tracingRawDictPath):
-    with open(os.path.join(pklFolder, tracingRawDictPath), "rb") as f:
-        tracingRawDict = pickle.load(f)
+def tracingDataMerge(tracingFixedDictPath):
+    with open(os.path.join(pklFolder, tracingFixedDictPath), "rb") as f:
+        tracingFixedDict = pickle.load(f)
     tracingDict = {}
-    for u, l in tracingRawDict.items():
-        print(u)
-        for k, v in l.items():
-            #print(k)
-            if k not in tracingDict:
-                tracingDict[k] = []
-            for t, j in enumerate(v[0]):
-                try:
-                    tracingDict[k].insert((int(u)-uid+t)*userN, j)
-                except IndexError as e:
-                    print("except: " + str(e) + "******" + k + "******")
+    for b, v in tracingFixedDict.items():
+        print(b)
+        for u, d in v.items():
+            print(u)
+            for k, g in d.items():
+                print(k)
+                if k not in tracingDict:
+                    tracingDict[k] = []
+                for t, j in enumerate(g):
+                    try:
+                        tracingDict[k].insert((int(u)-uid+t)*userN, j[0])
+                    except IndexError as e:
+                        print("except: " + str(e) + "******" + k + "******")
     with open(os.path.join(pklFolder, "tracingDict.pkl"), "wb") as f:
         pickle.dump(tracingDict, f)
     print("End")
     return tracingDict
 #tracingDict = {"mi":[(x, y),...],}
 
+'''
 def dataPreviousProcessing():
     tracingDict = {}
     speedDict = {}; temSpeedList = [[],[]]
@@ -223,4 +266,4 @@ def dataPreviousProcessing():
     return tracingDict, speedDict
 #tracingRawDict = {"1": {"user": {"mi":[[[(x, y),..],[t,...]],[[(x1, y1),..],[t1,...]],..],..}, "user2":{...}}, "2":{...}}
 #speedRawDict = {"user": {"mi":[[[v1,...],[t1,...]],[[v2,...],[t2,...],...]]},...}
-         
+'''       
