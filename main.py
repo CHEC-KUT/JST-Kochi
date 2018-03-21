@@ -5,6 +5,7 @@ __email__ = 'i@wangchen0413.cn'
 
 from tracing.tracingStat import *
 from tracing.tracingAlysis import *
+from tracing.tracingModel import *
 
 '''
 ************************************************
@@ -16,9 +17,9 @@ if __name__ == '__main__':
     #dataProcessing()
     #dataFixed()
     #tracingDataMerge("tracingFixedDict.pkl")
-    tracingGraphGenerate("tracingDict.pkl")
+    #tracingGraphGenerate("tracingDict.pkl")
     #speedGraphGenerate("speedDict.pkl")
-    keyPairFrequency("tracingDict.pkl")
+    #keyPairFrequency("tracingDict.pkl")
     #tracingRangeConvergence("tracingDict.pkl")
     #tracingAverage("rangeDict.pkl")
     #tracingRangeDrawing("tracingAverageDict.pkl")
@@ -28,3 +29,7 @@ if __name__ == '__main__':
     #tracingNormalPointRegress("tracingNormalPointFilterDict.pkl")
     #tracingNormalPointDrawing("tracingNormalPointDict.pkl", "parameterList.pkl")
     #tracingNormalPointDrawing("tracingNormalPointFilterDict.pkl", "parameterList.pkl")
+    #dataOnME("tracingFixedDict.pkl")
+    #speedOnME("meData.pkl")
+    #vsulSpeedMe("meSpeed.pkl")
+    tracingRegression("tracingDict.pkl")

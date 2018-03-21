@@ -30,6 +30,8 @@ speedFolder = '../graph/speed/'
 tracingRange = '../graph/tracingRange/'
 tracingNormalPointFolder = '../graph/tracingNormalPoint/'
 tracingNormalPointFilterFolder = '../graph/tracingNormalPointFilter/'
+testFolder = os.path.join(graphFolder, "test/")
+squareFolder = os.path.join(graphFolder, "square/")
 
 uid = 502
 userN = 20

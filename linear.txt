@@ -1,0 +1,3472 @@
+Keypair: ym | Fit:  
+0.5329 x + 182.6
+Yvals Variance: 8996.60059243
+yvals Variance: 24139.2090083
+Covariance: 9021.1144905
+Coefficient: 0.612152259725
+----------------------------
+Keypair: mm | Fit:  
+0.115 x - 36.89
+Yvals Variance: 495.159455998
+yvals Variance: 6859.49385729
+Covariance: 495.645860179
+Coefficient: 0.268938456983
+----------------------------
+Keypair: mä | Fit:  
+-0.3672 x - 142.9
+Yvals Variance: 2430.9469999
+yvals Variance: 13853.1732803
+Covariance: 2433.25778602
+Coefficient: 0.419300850448
+----------------------------
+Keypair: är | Fit:  
+0.1236 x + 48.26
+Yvals Variance: 2418.20398998
+yvals Variance: 24083.61357
+Covariance: 2420.69441633
+Coefficient: 0.317199633338
+----------------------------
+Keypair: rs | Fit:  
+-0.05123 x + 159.2
+Yvals Variance: 245.471883664
+yvals Variance: 11449.0816192
+Covariance: 245.928151105
+Coefficient: 0.146697273252
+----------------------------
+Keypair: si | Fit:  
+-0.2395 x + 50.04
+Yvals Variance: 5950.81374691
+yvals Variance: 24134.4969568
+Covariance: 5951.83657498
+Coefficient: 0.496642285157
+----------------------------
+Keypair: it | Fit:  
+0.01419 x + 73.14
+Yvals Variance: 8.45653373412
+yvals Variance: 15876.6761771
+Covariance: 8.45754070408
+Coefficient: 0.0230817169142
+----------------------------
+Keypair: tk | Fit:  
+0.1165 x + 186.2
+Yvals Variance: 610.588210144
+yvals Variance: 20312.6478189
+Covariance: 610.715814786
+Coefficient: 0.173413015339
+----------------------------
+Keypair: kö | Fit:  
+-0.158 x + 33.49
+Yvals Variance: 464.459402683
+yvals Variance: 7782.57032301
+Covariance: 464.82197833
+Coefficient: 0.244484453642
+----------------------------
+Keypair: ö  | Fit:  
+-0.5426 x + 50.66
+Yvals Variance: 18288.3275348
+yvals Variance: 32562.3465478
+Covariance: 18301.0720139
+Coefficient: 0.749948925796
+----------------------------
+Keypair:  s | Fit:  
+0.06 x - 248.2
+Yvals Variance: 709.489348147
+yvals Variance: 38616.8836071
+Covariance: 709.589643503
+Coefficient: 0.135564418943
+----------------------------
+Keypair: in | Fit:  
+-0.03684 x + 285.8
+Yvals Variance: 13.3816926954
+yvals Variance: 27017.3870981
+Covariance: 13.3835083932
+Coefficient: 0.0222583402453
+----------------------------
+Keypair: nä | Fit:  
+-0.2364 x - 109.2
+Yvals Variance: 1937.10569999
+yvals Variance: 14543.1000299
+Covariance: 1938.02901062
+Coefficient: 0.365136390936
+----------------------------
+Keypair: ä  | Fit:  
+-0.2551 x + 193
+Yvals Variance: 6738.41812091
+yvals Variance: 36088.6548342
+Covariance: 6739.01139597
+Coefficient: 0.432147361505
+----------------------------
+Keypair:  t | Fit:  
+0.131 x - 344.8
+Yvals Variance: 1388.15580417
+yvals Variance: 55810.4144031
+Covariance: 1388.29041974
+Coefficient: 0.157726111449
+----------------------------
+Keypair: tä | Fit:  
+0.06579 x + 184.8
+Yvals Variance: 1533.8081777
+yvals Variance: 25341.7106588
+Covariance: 1533.97194112
+Coefficient: 0.246044650613
+----------------------------
+Keypair: äm | Fit:  
+-0.5247 x + 25.72
+Yvals Variance: 4438.0916848
+yvals Variance: 15800.170974
+Covariance: 4443.12924631
+Coefficient: 0.530591048036
+----------------------------
+Keypair: än | Fit:  
+-0.3916 x + 17.35
+Yvals Variance: 5790.5581265
+yvals Variance: 17456.3230071
+Covariance: 5791.67859054
+Coefficient: 0.576060179272
+----------------------------
+Keypair: n  | Fit:  
+-0.0295 x + 132.9
+Yvals Variance: 60.1080712064
+yvals Variance: 21152.2630177
+Covariance: 60.1112857137
+Coefficient: 0.0533103092684
+----------------------------
+Keypair: vo | Fit:  
+-0.7295 x - 107.9
+Yvals Variance: 20285.2220758
+yvals Variance: 37951.9973619
+Covariance: 20290.8149134
+Coefficient: 0.731294466944
+----------------------------
+Keypair: oi | Fit:  
+-0.07859 x - 5.587
+Yvals Variance: 146.443723274
+yvals Variance: 6581.75874772
+Covariance: 146.489861813
+Coefficient: 0.149211126303
+----------------------------
+Keypair: ko | Fit:  
+-0.2953 x - 117
+Yvals Variance: 1459.98047157
+yvals Variance: 15855.8872835
+Covariance: 1460.35234637
+Coefficient: 0.303521076931
+----------------------------
+Keypair: o  | Fit:  
+-0.9378 x + 122.6
+Yvals Variance: 35465.1976035
+yvals Variance: 57340.8790076
+Covariance: 35471.9119537
+Coefficient: 0.786595092783
+----------------------------
+Keypair:  j | Fit:  
+-0.2446 x - 245.6
+Yvals Variance: 4452.6222207
+yvals Variance: 38720.0838465
+Covariance: 4453.94780041
+Coefficient: 0.339210317716
+----------------------------
+Keypair: jo | Fit:  
+-0.5507 x - 76.07
+Yvals Variance: 6757.291058
+yvals Variance: 14043.783492
+Covariance: 6763.44523929
+Coefficient: 0.694287909569
+----------------------------
+Keypair:  p | Fit:  
+-0.4416 x - 227.7
+Yvals Variance: 15443.5717019
+yvals Variance: 57853.1759448
+Covariance: 15446.328498
+Coefficient: 0.516758691352
+----------------------------
+Keypair: ps | Fit:  
+-0.1807 x + 85.7
+Yvals Variance: 5901.71507178
+yvals Variance: 21356.1936252
+Covariance: 5944.79328398
+Coefficient: 0.529524079083
+----------------------------
+Keypair: sr | Fit:  
+-0.05545 x - 122.2
+Yvals Variance: 85.5192666971
+yvals Variance: 15337.4479459
+Covariance: 85.8203908756
+Coefficient: 0.074934524049
+----------------------------
+Keypair: re | Fit:  
+0.1726 x + 59.54
+Yvals Variance: 619.085548601
+yvals Variance: 11608.4890474
+Covariance: 620.476752081
+Coefficient: 0.23145274345
+----------------------------
+Keypair: em | Fit:  
+0.2743 x + 180.6
+Yvals Variance: 8269.37998273
+yvals Variance: 26610.3281661
+Covariance: 8276.39982992
+Coefficient: 0.557930204947
+----------------------------
+Keypair: mi | Fit:  
+0.6942 x - 71.63
+Yvals Variance: 9158.14968324
+yvals Variance: 31778.5660856
+Covariance: 9160.70425777
+Coefficient: 0.536979672191
+----------------------------
+Keypair: ik | Fit:  
+-0.2072 x + 144.3
+Yvals Variance: 664.064656864
+yvals Variance: 15265.6051838
+Covariance: 664.444556553
+Coefficient: 0.208687555315
+----------------------------
+Keypair: ke | Fit:  
+0.2452 x + 65.48
+Yvals Variance: 5421.73534569
+yvals Variance: 19561.2680047
+Covariance: 5424.38915644
+Coefficient: 0.526724088587
+----------------------------
+Keypair: ei | Fit:  
+-0.08129 x + 122.9
+Yvals Variance: 491.5749766
+yvals Variance: 17854.6482508
+Covariance: 491.768357787
+Coefficient: 0.165993104796
+----------------------------
+Keypair:  h | Fit:  
+-0.1277 x - 272.4
+Yvals Variance: 1381.10278126
+yvals Variance: 38760.7160897
+Covariance: 1381.35973062
+Coefficient: 0.188798220006
+----------------------------
+Keypair: hy | Fit:  
+0.3067 x - 107.3
+Yvals Variance: 1166.12221676
+yvals Variance: 12183.1056926
+Covariance: 1167.19402027
+Coefficient: 0.309664922554
+----------------------------
+Keypair: yv | Fit:  
+-0.03183 x + 291
+Yvals Variance: 14.6416054893
+yvals Variance: 27427.6654278
+Covariance: 14.6523319402
+Coefficient: 0.0231216049575
+----------------------------
+Keypair: vä | Fit:  
+-0.2462 x - 33.79
+Yvals Variance: 4930.38372607
+yvals Variance: 15198.4213442
+Covariance: 4934.11603775
+Coefficient: 0.56999330952
+----------------------------
+Keypair: ää | Fit:  
+-0.2606 x - 30.25
+Yvals Variance: 1318.57098522
+yvals Variance: 10230.2826309
+Covariance: 1319.07715451
+Coefficient: 0.359148969942
+----------------------------
+Keypair:  m | Fit:  
+-0.2731 x - 122.3
+Yvals Variance: 5116.37760084
+yvals Variance: 25872.4753175
+Covariance: 5117.17516555
+Coefficient: 0.444764379919
+----------------------------
+Keypair: ma | Fit:  
+0.1588 x + 40.99
+Yvals Variance: 4585.09962188
+yvals Variance: 20413.2686628
+Covariance: 4587.77470918
+Coefficient: 0.474210776502
+----------------------------
+Keypair: at | Fit:  
+-0.138 x - 18.91
+Yvals Variance: 1072.21023046
+yvals Variance: 25519.3078836
+Covariance: 1072.87005214
+Coefficient: 0.205103326222
+----------------------------
+Keypair: ka | Fit:  
+-0.01825 x + 37.83
+Yvals Variance: 44.4972304105
+yvals Variance: 13315.4527421
+Covariance: 44.5126969487
+Coefficient: 0.057828170016
+----------------------------
+Keypair: aa | Fit:  
+0.2238 x - 0.9047
+Yvals Variance: 2354.05994096
+yvals Variance: 16283.2216317
+Covariance: 2354.89947732
+Coefficient: 0.38035878176
+----------------------------
+Keypair: a  | Fit:  
+0.1821 x + 212.7
+Yvals Variance: 7289.1576336
+yvals Variance: 34293.1001177
+Covariance: 7289.58442426
+Coefficient: 0.46106348145
+----------------------------
+Keypair: pi | Fit:  
+-0.1806 x - 8.077
+Yvals Variance: 1409.42596224
+yvals Variance: 13567.526478
+Covariance: 1410.27655123
+Coefficient: 0.322502297179
+----------------------------
+Keypair: äk | Fit:  
+-0.1483 x + 6.763
+Yvals Variance: 881.477091074
+yvals Variance: 15501.0198986
+Covariance: 882.47198621
+Coefficient: 0.238734550382
+----------------------------
+Keypair: me | Fit:  
+0.3296 x + 11.4
+Yvals Variance: 15334.5642739
+yvals Variance: 32987.5845003
+Covariance: 15343.4230632
+Coefficient: 0.682199319781
+----------------------------
+Keypair: eo | Fit:  
+-0.04681 x + 76.36
+Yvals Variance: 185.728523902
+yvals Variance: 9029.36303885
+Covariance: 187.464304499
+Coefficient: 0.144760716486
+----------------------------
+Keypair: od | Fit:  
+-0.1507 x + 112.4
+Yvals Variance: 2839.3638981
+yvals Variance: 19658.3996059
+Covariance: 2845.23035244
+Coefficient: 0.380831466856
+----------------------------
+Keypair: dä | Fit:  
+-0.0617 x + 106.2
+Yvals Variance: 672.23919599
+yvals Variance: 18710.2790643
+Covariance: 672.580261031
+Coefficient: 0.189645293601
+----------------------------
+Keypair: ju | Fit:  
+0.0003124 x - 136.7
+Yvals Variance: 0.000881744927594
+yvals Variance: 11582.5860126
+Covariance: 0.000882699196976
+Coefficient: 0.00027620941593
+----------------------------
+Keypair: ut | Fit:  
+0.06468 x + 68.22
+Yvals Variance: 142.768274858
+yvals Variance: 11679.1796914
+Covariance: 142.825313722
+Coefficient: 0.110607139445
+----------------------------
+Keypair: te | Fit:  
+0.005728 x + 54.11
+Yvals Variance: 1.13854701096
+yvals Variance: 11556.010026
+Covariance: 1.13912612948
+Coefficient: 0.00993098612634
+----------------------------
+Keypair: el | Fit:  
+0.09881 x + 186.9
+Yvals Variance: 1017.0597973
+yvals Variance: 20912.4254945
+Covariance: 1017.30195439
+Coefficient: 0.220584215268
+----------------------------
+Keypair: ll | Fit:  
+-0.07141 x - 26.03
+Yvals Variance: 41.1465753356
+yvals Variance: 3837.58120329
+Covariance: 41.1657043803
+Coefficient: 0.103595267139
+----------------------------
+Keypair: la | Fit:  
+-0.001026 x + 58.49
+Yvals Variance: 0.165453726408
+yvals Variance: 14925.3889987
+Covariance: 0.165525600312
+Coefficient: 0.00333091895297
+----------------------------
+Keypair: so | Fit:  
+-0.2177 x + 69.79
+Yvals Variance: 6426.91545627
+yvals Variance: 24036.7885199
+Covariance: 6430.85834919
+Coefficient: 0.517403579443
+----------------------------
+Keypair: ta | Fit:  
+-0.2053 x + 105.8
+Yvals Variance: 2207.75518609
+yvals Variance: 15843.8161846
+Covariance: 2208.05022219
+Coefficient: 0.373339200245
+----------------------------
+Keypair: hä | Fit:  
+-0.1012 x + 72.08
+Yvals Variance: 717.429159292
+yvals Variance: 11766.6484496
+Covariance: 717.854933274
+Coefficient: 0.247070439655
+----------------------------
+Keypair: ne | Fit:  
+0.4303 x + 36.91
+Yvals Variance: 18310.2443929
+yvals Variance: 35819.0769005
+Covariance: 18322.1187408
+Coefficient: 0.715437051921
+----------------------------
+Keypair: le | Fit:  
+0.203 x + 67.53
+Yvals Variance: 4928.0309487
+yvals Variance: 21095.0401428
+Covariance: 4928.85641452
+Coefficient: 0.483414057381
+----------------------------
+Keypair: e  | Fit:  
+0.3561 x + 354.3
+Yvals Variance: 13120.2299112
+yvals Variance: 58580.153153
+Covariance: 13122.5232568
+Coefficient: 0.473338006116
+----------------------------
+Keypair: hu | Fit:  
+-0.1651 x - 100.6
+Yvals Variance: 342.794255183
+yvals Variance: 24548.6699405
+Covariance: 343.414136296
+Coefficient: 0.118382475576
+----------------------------
+Keypair: uo | Fit:  
+-0.2824 x + 70.12
+Yvals Variance: 1440.55532226
+yvals Variance: 13040.8807268
+Covariance: 1442.06375716
+Coefficient: 0.332710134553
+----------------------------
+Keypair: om | Fit:  
+-0.1891 x + 278.8
+Yvals Variance: 460.838915013
+yvals Variance: 24941.7119792
+Covariance: 461.540344107
+Coefficient: 0.136135680592
+----------------------------
+Keypair: en | Fit:  
+0.3291 x + 208.8
+Yvals Variance: 8801.11459492
+yvals Variance: 31376.0107222
+Covariance: 8802.09260521
+Coefficient: 0.529685681402
+----------------------------
+Keypair: nn | Fit:  
+0.3064 x - 31.17
+Yvals Variance: 1100.30973659
+yvals Variance: 5725.06406064
+Covariance: 1101.48906107
+Coefficient: 0.438866605198
+----------------------------
+Keypair: na | Fit:  
+0.1584 x + 21.43
+Yvals Variance: 3666.48400421
+yvals Variance: 19518.1371385
+Covariance: 3668.24166673
+Coefficient: 0.433624547582
+----------------------------
+Keypair: ok | Fit:  
+-0.3122 x + 82.73
+Yvals Variance: 1451.80077722
+yvals Variance: 11148.6734633
+Covariance: 1454.52972605
+Coefficient: 0.361540947021
+----------------------------
+Keypair: il | Fit:  
+0.2988 x + 165
+Yvals Variance: 929.795484924
+yvals Variance: 15787.7178595
+Covariance: 930.381367397
+Coefficient: 0.242832946478
+----------------------------
+Keypair:  u | Fit:  
+-0.2406 x - 343.2
+Yvals Variance: 4454.49083807
+yvals Variance: 62934.783924
+Covariance: 4459.56429004
+Coefficient: 0.266347130003
+----------------------------
+Keypair: uu | Fit:  
+0.2932 x + 43.4
+Yvals Variance: 2290.69643702
+yvals Variance: 17713.8524424
+Covariance: 2293.03388236
+Coefficient: 0.359973218043
+----------------------------
+Keypair: ud | Fit:  
+-0.226 x + 83
+Yvals Variance: 4515.27625722
+yvals Variance: 14628.2953887
+Covariance: 4528.21401154
+Coefficient: 0.557170250992
+----------------------------
+Keypair: de | Fit:  
+-0.1361 x - 143.9
+Yvals Variance: 549.515033747
+yvals Variance: 12264.370471
+Covariance: 550.946062481
+Coefficient: 0.21222505947
+----------------------------
+Keypair: es | Fit:  
+0.05935 x + 177.2
+Yvals Variance: 220.577949273
+yvals Variance: 15228.8177641
+Covariance: 220.705303747
+Coefficient: 0.120420001296
+----------------------------
+Keypair: st | Fit:  
+-0.2375 x - 46.28
+Yvals Variance: 2369.67103206
+yvals Variance: 15813.6766767
+Covariance: 2370.10008711
+Coefficient: 0.387174038884
+----------------------------
+Keypair: ts | Fit:  
+-0.04704 x + 153.8
+Yvals Variance: 187.227510676
+yvals Variance: 16836.0542962
+Covariance: 187.350122012
+Coefficient: 0.105523451998
+----------------------------
+Keypair: sa | Fit:  
+0.02123 x + 22.39
+Yvals Variance: 26.291892318
+yvals Variance: 13721.8136229
+Covariance: 26.3124489187
+Coefficient: 0.0438071086126
+----------------------------
+Keypair: an | Fit:  
+0.08736 x + 133.1
+Yvals Variance: 1031.76206564
+yvals Variance: 18347.3470713
+Covariance: 1031.92770412
+Coefficient: 0.237177155232
+----------------------------
+Keypair: kä | Fit:  
+-0.07401 x + 43.02
+Yvals Variance: 278.449537917
+yvals Variance: 13477.8334763
+Covariance: 278.625215859
+Coefficient: 0.143825907868
+----------------------------
+Keypair: äv | Fit:  
+-0.2032 x + 44.29
+Yvals Variance: 3947.42024947
+yvals Variance: 16140.8585882
+Covariance: 3952.02634077
+Coefficient: 0.495107872508
+----------------------------
+Keypair: ve | Fit:  
+0.6579 x + 50.57
+Yvals Variance: 16079.7170829
+yvals Variance: 40379.8923894
+Covariance: 16146.4379007
+Coefficient: 0.633658035226
+----------------------------
+Keypair: ur | Fit:  
+-0.03931 x + 37.77
+Yvals Variance: 52.1182297556
+yvals Variance: 10933.1328935
+Covariance: 52.3037038829
+Coefficient: 0.0692891610477
+----------------------------
+Keypair: ri | Fit:  
+-0.02649 x + 81.49
+Yvals Variance: 38.6250385233
+yvals Variance: 15392.9433568
+Covariance: 38.654636254
+Coefficient: 0.0501309912894
+----------------------------
+Keypair: i  | Fit:  
+-0.1831 x + 426.4
+Yvals Variance: 2005.88747022
+yvals Variance: 57219.0474348
+Covariance: 2006.28617574
+Coefficient: 0.187270463821
+----------------------------
+Keypair: id | Fit:  
+-0.2641 x + 28.7
+Yvals Variance: 9364.21121081
+yvals Variance: 19159.2745439
+Covariance: 9378.68448935
+Coefficient: 0.700191436903
+----------------------------
+Keypair: d< | Fit:  
+0.06996 x + 82.53
+Yvals Variance: 917.174561506
+yvals Variance: 28748.4633936
+Covariance: 918.231214227
+Coefficient: 0.178821088176
+----------------------------
+Keypair: <d | Fit:  
+0.0278 x - 52.44
+Yvals Variance: 187.180730757
+yvals Variance: 39009.7277437
+Covariance: 187.599479595
+Coefficient: 0.0694247941066
+----------------------------
+Keypair: ar | Fit:  
+-0.1428 x - 50.44
+Yvals Variance: 836.803692848
+yvals Variance: 18082.2441459
+Covariance: 837.128665156
+Coefficient: 0.215205940317
+----------------------------
+Keypair: rv | Fit:  
+0.3234 x + 264
+Yvals Variance: 4093.29708386
+yvals Variance: 27788.0057043
+Covariance: 4097.64702763
+Coefficient: 0.384210494076
+----------------------------
+Keypair: vi | Fit:  
+-0.7734 x - 187.1
+Yvals Variance: 10589.2686632
+yvals Variance: 31091.9986312
+Covariance: 10592.9699106
+Coefficient: 0.583795086163
+----------------------------
+Keypair: se | Fit:  
+0.2472 x - 115.6
+Yvals Variance: 3348.5055355
+yvals Variance: 22701.5944546
+Covariance: 3349.87731163
+Coefficient: 0.384215791143
+----------------------------
+Keypair: et | Fit:  
+0.1918 x + 60.78
+Yvals Variance: 1394.66151133
+yvals Variance: 23448.9995344
+Covariance: 1395.32626896
+Coefficient: 0.243994031897
+----------------------------
+Keypair: ia | Fit:  
+-0.1269 x + 138.9
+Yvals Variance: 2233.54033984
+yvals Variance: 19469.5887664
+Covariance: 2234.62143391
+Coefficient: 0.33886652611
+----------------------------
+Keypair: ij | Fit:  
+-0.4007 x + 107.6
+Yvals Variance: 1662.09811888
+yvals Variance: 13151.0552902
+Covariance: 1685.18281498
+Coefficient: 0.360444489886
+----------------------------
+Keypair: ui | Fit:  
+0.4472 x + 15.07
+Yvals Variance: 2122.03554449
+yvals Variance: 12077.3327023
+Covariance: 2126.26270693
+Coefficient: 0.420005598932
+----------------------------
+Keypair: as | Fit:  
+0.1154 x + 10.4
+Yvals Variance: 470.25981296
+yvals Variance: 8696.43734109
+Covariance: 470.547785901
+Coefficient: 0.232682710799
+----------------------------
+Keypair:  k | Fit:  
+-0.2163 x - 225
+Yvals Variance: 3917.94100594
+yvals Variance: 40022.5019421
+Covariance: 3918.73636546
+Coefficient: 0.312942814231
+----------------------------
+Keypair: ou | Fit:  
+-0.3397 x - 27.04
+Yvals Variance: 3088.73759703
+yvals Variance: 14495.9300149
+Covariance: 3099.13738692
+Coefficient: 0.463155984714
+----------------------------
+Keypair: us | Fit:  
+-0.1955 x + 97.64
+Yvals Variance: 3419.28742896
+yvals Variance: 17822.2921263
+Covariance: 3422.0832486
+Coefficient: 0.438370162709
+----------------------------
+Keypair: s  | Fit:  
+0.2509 x + 223.9
+Yvals Variance: 6453.61060684
+yvals Variance: 31502.9036514
+Covariance: 6455.92621883
+Coefficient: 0.452774424356
+----------------------------
+Keypair: su | Fit:  
+-0.3111 x + 51.76
+Yvals Variance: 8296.70374996
+yvals Variance: 26315.6771675
+Covariance: 8308.29132503
+Coefficient: 0.562278723082
+----------------------------
+Keypair: uj | Fit:  
+-0.00861 x + 136.8
+Yvals Variance: 0.768783978399
+yvals Variance: 8651.16117029
+Covariance: 0.770890235874
+Coefficient: 0.00945264137494
+----------------------------
+Keypair: ol | Fit:  
+-0.3528 x + 117
+Yvals Variance: 1321.50510553
+yvals Variance: 12040.7023832
+Covariance: 1322.15226767
+Coefficient: 0.331452379092
+----------------------------
+Keypair:  l | Fit:  
+-0.261 x - 211.2
+Yvals Variance: 6143.5514014
+yvals Variance: 38250.9901251
+Covariance: 6145.20556171
+Coefficient: 0.400871633855
+----------------------------
+Keypair: lä | Fit:  
+0.02849 x + 15.12
+Yvals Variance: 20.1811540544
+yvals Variance: 11144.6814946
+Covariance: 20.1869749815
+Coefficient: 0.0425661543349
+----------------------------
+Keypair: äh | Fit:  
+0.03296 x + 67.71
+Yvals Variance: 89.9351221715
+yvals Variance: 14248.7191475
+Covariance: 89.9792080157
+Coefficient: 0.0794858071359
+----------------------------
+Keypair: he | Fit:  
+0.323 x + 30.46
+Yvals Variance: 3549.60502085
+yvals Variance: 16382.4861241
+Covariance: 3553.36918312
+Coefficient: 0.465972634339
+----------------------------
+Keypair: to | Fit:  
+-0.08796 x + 102.6
+Yvals Variance: 456.004430567
+yvals Variance: 18588.2982153
+Covariance: 456.154827807
+Coefficient: 0.15667796743
+----------------------------
+Keypair: on | Fit:  
+-0.5256 x + 209.6
+Yvals Variance: 7088.41320496
+yvals Variance: 30327.4342136
+Covariance: 7090.87360524
+Coefficient: 0.483623500868
+----------------------------
+Keypair: nk | Fit:  
+0.3694 x - 95.09
+Yvals Variance: 1387.48818561
+yvals Variance: 16485.4303262
+Covariance: 1388.67814117
+Coefficient: 0.290360013838
+----------------------------
+Keypair:  a | Fit:  
+0.0365 x - 236.2
+Yvals Variance: 277.412650015
+yvals Variance: 37883.460608
+Covariance: 277.470577066
+Coefficient: 0.0855911742583
+----------------------------
+Keypair: au | Fit:  
+-0.2442 x + 52.17
+Yvals Variance: 6128.85127197
+yvals Variance: 20968.3077389
+Covariance: 6132.12698082
+Coefficient: 0.540928554095
+----------------------------
+Keypair: tt | Fit:  
+0.04735 x + 60.39
+Yvals Variance: 59.8040764078
+yvals Variance: 23854.6155685
+Covariance: 59.8478568444
+Coefficient: 0.0501068380765
+----------------------------
+Keypair:  v | Fit:  
+-0.1134 x - 185.8
+Yvals Variance: 1240.3790986
+yvals Variance: 29649.1575325
+Covariance: 1240.54496904
+Coefficient: 0.204563955777
+----------------------------
+Keypair: ii | Fit:  
+-0.2494 x - 8.956
+Yvals Variance: 2109.43776076
+yvals Variance: 13435.5207531
+Covariance: 2111.08963058
+Coefficient: 0.396548272702
+----------------------------
+Keypair: nl | Fit:  
+-0.5734 x - 138.4
+Yvals Variance: 8017.02022799
+yvals Variance: 20753.050565
+Covariance: 8050.56424568
+Coefficient: 0.624135461136
+----------------------------
+Keypair: lo | Fit:  
+-0.1614 x - 144.6
+Yvals Variance: 211.78973611
+yvals Variance: 12887.1707765
+Covariance: 212.338414183
+Coefficient: 0.128527873778
+----------------------------
+Keypair: op | Fit:  
+-0.4616 x + 59.68
+Yvals Variance: 7539.78559586
+yvals Variance: 24972.9680327
+Covariance: 7549.32962826
+Coefficient: 0.550166078596
+----------------------------
+Keypair: po | Fit:  
+-0.08012 x + 1.066
+Yvals Variance: 63.3777084132
+yvals Variance: 5175.92337479
+Covariance: 63.5821526338
+Coefficient: 0.111012796258
+----------------------------
+Keypair: ua | Fit:  
+-0.2805 x + 46.32
+Yvals Variance: 8526.77971846
+yvals Variance: 17384.3173247
+Covariance: 8540.89690343
+Coefficient: 0.701507207409
+----------------------------
+Keypair:  o | Fit:  
+-0.3842 x - 267.9
+Yvals Variance: 11072.6365939
+yvals Variance: 60945.5699314
+Covariance: 11074.6476068
+Coefficient: 0.426317657919
+----------------------------
+Keypair: os | Fit:  
+-0.1471 x + 95.97
+Yvals Variance: 3325.03646101
+yvals Variance: 16769.2834054
+Covariance: 3326.70064342
+Coefficient: 0.44551082808
+----------------------------
+Keypair: ks | Fit:  
+0.008376 x + 53.69
+Yvals Variance: 8.23497286793
+yvals Variance: 11549.1838518
+Covariance: 8.24308614169
+Coefficient: 0.0267290242206
+----------------------------
+Keypair:  e | Fit:  
+0.118 x - 305.4
+Yvals Variance: 2007.93251942
+yvals Variance: 54757.6339146
+Covariance: 2008.54116826
+Coefficient: 0.191550744395
+----------------------------
+Keypair: er | Fit:  
+0.1403 x + 33.94
+Yvals Variance: 204.547834024
+yvals Variance: 10739.3616838
+Covariance: 204.812449591
+Coefficient: 0.138187791114
+----------------------------
+Keypair: ro | Fit:  
+-0.05751 x + 119.5
+Yvals Variance: 264.261659727
+yvals Variance: 24664.3000898
+Covariance: 265.034354639
+Coefficient: 0.1038127499
+----------------------------
+Keypair: oa | Fit:  
+-0.1629 x + 110.5
+Yvals Variance: 4189.35051579
+yvals Variance: 24330.4647128
+Covariance: 4195.54777987
+Coefficient: 0.415566107123
+----------------------------
+Keypair:  n | Fit:  
+-0.3064 x - 122.7
+Yvals Variance: 3999.82578034
+yvals Variance: 24837.4527969
+Covariance: 4003.21259302
+Coefficient: 0.401637808927
+----------------------------
+Keypair: äi | Fit:  
+0.181 x - 31.25
+Yvals Variance: 1541.02022444
+yvals Variance: 14503.3955942
+Covariance: 1543.24071468
+Coefficient: 0.326433451425
+----------------------------
+Keypair: pu | Fit:  
+-0.0521 x + 65.65
+Yvals Variance: 120.4671715
+yvals Variance: 22716.6400959
+Covariance: 120.636604934
+Coefficient: 0.0729243725197
+----------------------------
+Keypair: uh | Fit:  
+0.1434 x + 221.8
+Yvals Variance: 539.978228746
+yvals Variance: 44806.8469999
+Covariance: 542.850453367
+Coefficient: 0.110362082722
+----------------------------
+Keypair: nt | Fit:  
+0.3314 x - 79.93
+Yvals Variance: 7412.27882638
+yvals Variance: 37321.4874607
+Covariance: 7419.10412917
+Coefficient: 0.446062917424
+----------------------------
+Keypair: ai | Fit:  
+-0.2042 x + 60.52
+Yvals Variance: 5708.36269983
+yvals Variance: 24435.0043005
+Covariance: 5709.72670526
+Coefficient: 0.483451967045
+----------------------------
+Keypair: yr | Fit:  
+0.05164 x + 62.48
+Yvals Variance: 111.140812183
+yvals Variance: 7368.39011512
+Covariance: 111.680330689
+Coefficient: 0.123410923592
+----------------------------
+Keypair: ti | Fit:  
+-0.0281 x + 77.91
+Yvals Variance: 40.1777213856
+yvals Variance: 15799.2032697
+Covariance: 40.1931743553
+Coefficient: 0.0504477803266
+----------------------------
+Keypair: av | Fit:  
+0.05966 x + 161.2
+Yvals Variance: 243.365144287
+yvals Variance: 15929.0062437
+Covariance: 243.518783898
+Coefficient: 0.123682694075
+----------------------------
+Keypair: nu | Fit:  
+0.7658 x - 75.62
+Yvals Variance: 8637.31061242
+yvals Variance: 33653.8382281
+Covariance: 8642.98931762
+Coefficient: 0.506940986842
+----------------------------
+Keypair: nr | Fit:  
+0.476 x + 52.98
+Yvals Variance: 17466.1263602
+yvals Variance: 34313.2170868
+Covariance: 17995.4029165
+Coefficient: 0.735076530965
+----------------------------
+Keypair: jä | Fit:  
+-0.237 x + 92.2
+Yvals Variance: 2612.48009041
+yvals Variance: 16919.6211829
+Covariance: 2616.86344627
+Coefficient: 0.393603769017
+----------------------------
+Keypair: äl | Fit:  
+-0.1464 x - 6.788
+Yvals Variance: 563.653877524
+yvals Variance: 13829.5013536
+Covariance: 564.020600932
+Coefficient: 0.202015855441
+----------------------------
+Keypair: lk | Fit:  
+0.01729 x + 0.6126
+Yvals Variance: 2.93455968519
+yvals Variance: 5070.52247685
+Covariance: 2.94216217143
+Coefficient: 0.0241195264979
+----------------------------
+Keypair: ki | Fit:  
+-0.133 x - 97.5
+Yvals Variance: 729.402878242
+yvals Variance: 23607.1596126
+Covariance: 729.749223388
+Coefficient: 0.175860392016
+----------------------------
+Keypair: im | Fit:  
+0.3013 x + 287
+Yvals Variance: 2251.56809177
+yvals Variance: 25100.1280724
+Covariance: 2254.81710778
+Coefficient: 0.299937529379
+----------------------------
+Keypair: is | Fit:  
+-0.1283 x + 134.7
+Yvals Variance: 2151.26275712
+yvals Variance: 21102.5984173
+Covariance: 2151.72799561
+Coefficient: 0.319354230637
+----------------------------
+Keypair: äe | Fit:  
+0.2144 x + 106.5
+Yvals Variance: 8324.33428853
+yvals Variance: 25531.2281517
+Covariance: 8351.18697978
+Coefficient: 0.572845621638
+----------------------------
+Keypair: ie | Fit:  
+0.06608 x + 104.6
+Yvals Variance: 376.697322835
+yvals Variance: 14112.2760633
+Covariance: 376.860961985
+Coefficient: 0.163450537762
+----------------------------
+Keypair: pa | Fit:  
+-0.1497 x + 108
+Yvals Variance: 4361.14160935
+yvals Variance: 25939.0990384
+Covariance: 4362.73268619
+Coefficient: 0.410186219287
+----------------------------
+Keypair: aj | Fit:  
+-0.05372 x + 117.4
+Yvals Variance: 263.539137316
+yvals Variance: 18549.157795
+Covariance: 263.93723269
+Coefficient: 0.119375719201
+----------------------------
+Keypair: ja | Fit:  
+-0.01403 x + 46.2
+Yvals Variance: 18.6069161356
+yvals Variance: 13107.3300644
+Covariance: 18.6257872473
+Coefficient: 0.037715539107
+----------------------------
+Keypair: ku | Fit:  
+0.4312 x - 31
+Yvals Variance: 3226.77911337
+yvals Variance: 14487.9211944
+Covariance: 3230.05503125
+Coefficient: 0.472413462689
+----------------------------
+Keypair: pä | Fit:  
+-0.08565 x + 171.9
+Yvals Variance: 262.125699226
+yvals Variance: 16153.1751253
+Covariance: 262.670659099
+Coefficient: 0.127652055418
+----------------------------
+Keypair: rj | Fit:  
+0.1602 x + 199.1
+Yvals Variance: 1318.72629917
+yvals Variance: 20480.690321
+Covariance: 1320.32475529
+Coefficient: 0.254056983353
+----------------------------
+Keypair: li | Fit:  
+0.4116 x - 50.82
+Yvals Variance: 2027.22967094
+yvals Variance: 13066.7292939
+Covariance: 2029.05765081
+Coefficient: 0.394238889416
+----------------------------
+Keypair: tu | Fit:  
+0.08658 x + 53.05
+Yvals Variance: 213.644939625
+yvals Variance: 13109.5932295
+Covariance: 213.746193151
+Coefficient: 0.127719578059
+----------------------------
+Keypair: un | Fit:  
+0.2886 x + 305.6
+Yvals Variance: 1131.6775154
+yvals Variance: 28141.7173097
+Covariance: 1132.77092363
+Coefficient: 0.200726841629
+----------------------------
+Keypair: lm | Fit:  
+0.1868 x + 125.9
+Yvals Variance: 559.569085977
+yvals Variance: 10188.5176072
+Covariance: 560.423389925
+Coefficient: 0.234711244356
+----------------------------
+Keypair: ms | Fit:  
+0.1337 x - 52.05
+Yvals Variance: 3608.25948252
+yvals Variance: 13781.3406202
+Covariance: 3635.18679209
+Coefficient: 0.515504092586
+----------------------------
+Keypair: s< | Fit:  
+0.0485 x + 152.1
+Yvals Variance: 545.2075338
+yvals Variance: 32174.5253798
+Covariance: 545.374365971
+Coefficient: 0.130214012676
+----------------------------
+Keypair: <a | Fit:  
+0.1096 x + 12.42
+Yvals Variance: 3087.70131325
+yvals Variance: 29680.3212084
+Covariance: 3088.6078609
+Coefficient: 0.322634520261
+----------------------------
+Keypair: if | Fit:  
+-0.03272 x + 168.5
+Yvals Variance: 107.92101036
+yvals Variance: 25840.5794038
+Covariance: 110.319255034
+Coefficient: 0.0660613121317
+----------------------------
+Keypair: fä | Fit:  
+-0.1929 x + 175.7
+Yvals Variance: 5332.79701783
+yvals Variance: 29377.2728529
+Covariance: 5469.5354029
+Coefficient: 0.436985646952
+----------------------------
+Keypair: u< | Fit:  
+0.1283 x + 317.4
+Yvals Variance: 2052.46341757
+yvals Variance: 28762.4457992
+Covariance: 2054.10538831
+Coefficient: 0.267345022446
+----------------------------
+Keypair: << | Fit:  
+0.03581 x - 45.95
+Yvals Variance: 31.7454753058
+yvals Variance: 6950.91596993
+Covariance: 31.7489939796
+Coefficient: 0.0675877567525
+----------------------------
+Keypair: al | Fit:  
+-0.07557 x + 114.7
+Yvals Variance: 918.947661053
+yvals Variance: 17384.582201
+Covariance: 919.263667814
+Coefficient: 0.229991919837
+----------------------------
+Keypair: ss | Fit:  
+-0.06022 x - 11.88
+Yvals Variance: 81.2404532611
+yvals Variance: 6123.52584573
+Covariance: 81.3492088879
+Coefficient: 0.115336398856
+----------------------------
+Keypair: r< | Fit:  
+0.1931 x + 232.8
+Yvals Variance: 5795.05340975
+yvals Variance: 33650.499276
+Covariance: 5799.08896227
+Coefficient: 0.415274528272
+----------------------------
+Keypair: <e | Fit:  
+0.2721 x + 11.3
+Yvals Variance: 14913.9775793
+yvals Variance: 38392.3671555
+Covariance: 14921.7818585
+Coefficient: 0.623593383727
+----------------------------
+Keypair:  d | Fit:  
+-0.04068 x - 213.1
+Yvals Variance: 312.230156584
+yvals Variance: 56029.9317067
+Covariance: 312.951242396
+Coefficient: 0.0748219823016
+----------------------------
+Keypair: dd | Fit:  
+-0.1813 x - 58.48
+Yvals Variance: 3336.27624422
+yvals Variance: 6591.3754037
+Covariance: 3481.33173309
+Coefficient: 0.74238020583
+----------------------------
+Keypair: <s | Fit:  
+0.1231 x + 40.69
+Yvals Variance: 4110.33589099
+yvals Variance: 29765.2436967
+Covariance: 4111.65542097
+Coefficient: 0.371726338003
+----------------------------
+Keypair: d  | Fit:  
+0.3787 x + 73.71
+Yvals Variance: 8437.97801959
+yvals Variance: 40406.1608462
+Covariance: 8775.49714038
+Coefficient: 0.475257238295
+----------------------------
+Keypair:  < | Fit:  
+-0.2237 x - 120.7
+Yvals Variance: 5443.05511378
+yvals Variance: 35804.6086662
+Covariance: 5444.83796838
+Coefficient: 0.390026511544
+----------------------------
+Keypair: ty | Fit:  
+0.3304 x + 74.2
+Yvals Variance: 5733.21247678
+yvals Variance: 23996.7257156
+Covariance: 5741.31023451
+Coefficient: 0.489481184587
+----------------------------
+Keypair: yö | Fit:  
+0.152 x + 176.2
+Yvals Variance: 1376.56996848
+yvals Variance: 20235.5236414
+Covariance: 1378.82294715
+Coefficient: 0.261247494248
+----------------------------
+Keypair: öt | Fit:  
+0.06447 x + 69.29
+Yvals Variance: 395.525162952
+yvals Variance: 48341.4622141
+Covariance: 396.77682486
+Coefficient: 0.0907401195983
+----------------------------
+Keypair: ul | Fit:  
+0.2661 x + 165.2
+Yvals Variance: 1279.64876181
+yvals Variance: 17130.8925292
+Covariance: 1280.11257071
+Coefficient: 0.273408981276
+----------------------------
+Keypair: pe | Fit:  
+0.01864 x + 104.2
+Yvals Variance: 51.3643862715
+yvals Variance: 19574.5610288
+Covariance: 51.4117703917
+Coefficient: 0.0512726178368
+----------------------------
+Keypair: js | Fit:  
+0.03069 x + 49.23
+Yvals Variance: 95.9860970505
+yvals Variance: 9984.62836184
+Covariance: 96.9364544471
+Coefficient: 0.0990186525481
+----------------------------
+Keypair: sn | Fit:  
+0.1649 x + 64.3
+Yvals Variance: 3230.51602018
+yvals Variance: 11220.106163
+Covariance: 3266.01619623
+Coefficient: 0.542480212471
+----------------------------
+Keypair: a< | Fit:  
+0.05567 x + 150.4
+Yvals Variance: 723.410425356
+yvals Variance: 27300.7208329
+Covariance: 723.718653062
+Coefficient: 0.162850961695
+----------------------------
+Keypair: ad | Fit:  
+-0.04297 x + 11.65
+Yvals Variance: 54.6675301576
+yvals Variance: 7188.55500279
+Covariance: 54.8438770291
+Coefficient: 0.0874868181513
+----------------------------
+Keypair: di | Fit:  
+-0.2494 x + 15.65
+Yvals Variance: 5293.28184753
+yvals Variance: 20102.0028674
+Covariance: 5301.88880988
+Coefficient: 0.513982628078
+----------------------------
+Keypair: t< | Fit:  
+0.1438 x + 205.2
+Yvals Variance: 2840.37298219
+yvals Variance: 30560.2159041
+Covariance: 2842.03207856
+Coefficient: 0.305044416435
+----------------------------
+Keypair: <i | Fit:  
+0.295 x - 98.09
+Yvals Variance: 5224.63609046
+yvals Variance: 42200.0461163
+Covariance: 5226.87075089
+Coefficient: 0.352011843185
+----------------------------
+Keypair: lj | Fit:  
+-0.1119 x - 19.82
+Yvals Variance: 282.638552355
+yvals Variance: 6994.49039754
+Covariance: 283.057897388
+Coefficient: 0.201317503968
+----------------------------
+Keypair: sy | Fit:  
+-0.003872 x - 70.8
+Yvals Variance: 1.38599858198
+yvals Variance: 21178.629027
+Covariance: 1.39466107312
+Coefficient: 0.00814026165492
+----------------------------
+Keypair: yi | Fit:  
+-0.06404 x + 42.13
+Yvals Variance: 86.0582381383
+yvals Variance: 2370.23202483
+Covariance: 98.3522721581
+Coefficient: 0.217767337549
+----------------------------
+Keypair: äd | Fit:  
+0.1104 x + 119.7
+Yvals Variance: 2739.76756331
+yvals Variance: 12857.2924564
+Covariance: 2780.65961649
+Coefficient: 0.468507134224
+----------------------------
+Keypair: i< | Fit:  
+0.1081 x + 321.9
+Yvals Variance: 1037.21488956
+yvals Variance: 29683.033358
+Covariance: 1037.88449246
+Coefficient: 0.187051205571
+----------------------------
+Keypair: <t | Fit:  
+0.3908 x + 45.75
+Yvals Variance: 18652.4186528
+yvals Variance: 39778.9755924
+Covariance: 18659.6426724
+Coefficient: 0.685028985604
+----------------------------
+Keypair: äs | Fit:  
+0.02936 x + 102.5
+Yvals Variance: 206.72007027
+yvals Variance: 22164.6376234
+Covariance: 206.860409761
+Coefficient: 0.096639737366
+----------------------------
+Keypair: pp | Fit:  
+-0.3683 x + 5.586
+Yvals Variance: 5666.13766611
+yvals Variance: 19920.3441221
+Covariance: 5709.39062539
+Coefficient: 0.537400143795
+----------------------------
+Keypair: kd | Fit:  
+0.0631 x + 34
+Yvals Variance: 598.130520348
+yvals Variance: 4503.69619694
+Covariance: 606.675242067
+Coefficient: 0.369635561719
+----------------------------
+Keypair: l< | Fit:  
+0.0445 x + 106.3
+Yvals Variance: 193.14256178
+yvals Variance: 14632.2659885
+Covariance: 193.325116186
+Coefficient: 0.114998848709
+----------------------------
+Keypair: ls | Fit:  
+-0.134 x - 45.82
+Yvals Variance: 3625.67278584
+yvals Variance: 25260.0790471
+Covariance: 3654.22139045
+Coefficient: 0.381841563335
+----------------------------
+Keypair: ed | Fit:  
+0.06481 x + 170.8
+Yvals Variance: 122.703948516
+yvals Variance: 11930.4844878
+Covariance: 122.914780043
+Coefficient: 0.101588792676
+----------------------------
+Keypair: ät | Fit:  
+0.2136 x + 69.48
+Yvals Variance: 5762.44151493
+yvals Variance: 25208.9443373
+Covariance: 5770.42273586
+Coefficient: 0.47877011677
+----------------------------
+Keypair:  y | Fit:  
+0.08463 x - 338.3
+Yvals Variance: 506.652298478
+yvals Variance: 55451.9354305
+Covariance: 507.010863445
+Coefficient: 0.0956541687093
+----------------------------
+Keypair: yä | Fit:  
+0.1642 x + 136.3
+Yvals Variance: 2729.6993598
+yvals Variance: 15819.4291218
+Covariance: 2735.49489984
+Coefficient: 0.416277652654
+----------------------------
+Keypair: rk | Fit:  
+0.2134 x + 155.8
+Yvals Variance: 2288.43037121
+yvals Variance: 20415.5845322
+Covariance: 2290.01845613
+Coefficient: 0.335034261581
+----------------------------
+Keypair: lu | Fit:  
+0.09896 x - 86.26
+Yvals Variance: 298.44371311
+yvals Variance: 14526.9131955
+Covariance: 298.964557287
+Coefficient: 0.143582601239
+----------------------------
+Keypair: dt | Fit:  
+-0.2214 x - 119.4
+Yvals Variance: 3656.48158828
+yvals Variance: 14102.1164976
+Covariance: 3671.1662533
+Coefficient: 0.511246335397
+----------------------------
+Keypair: vp | Fit:  
+-0.7701 x - 16.57
+Yvals Variance: 22568.5640636
+yvals Variance: 33734.5381642
+Covariance: 22819.3258865
+Coefficient: 0.827015144061
+----------------------------
+Keypair: o< | Fit:  
+0.008059 x + 322.3
+Yvals Variance: 4.87204830308
+yvals Variance: 32226.6667728
+Covariance: 4.87576458706
+Coefficient: 0.012304932674
+----------------------------
+Keypair: or | Fit:  
+0.08027 x + 135.8
+Yvals Variance: 626.05291448
+yvals Variance: 16063.6145538
+Covariance: 626.923641761
+Coefficient: 0.197691269153
+----------------------------
+Keypair: ot | Fit:  
+0.04051 x + 89.67
+Yvals Variance: 98.8492571497
+yvals Variance: 14684.2057319
+Covariance: 98.9167771341
+Coefficient: 0.082102810267
+----------------------------
+Keypair: äy | Fit:  
+0.1585 x - 14.3
+Yvals Variance: 2115.772697
+yvals Variance: 19417.0096792
+Covariance: 2119.60561855
+Coefficient: 0.330696336877
+----------------------------
+Keypair: yf | Fit:  
+-0.2363 x + 39.28
+Yvals Variance: 12014.7961032
+yvals Variance: 14645.4046202
+Covariance: 13216.2757135
+Coefficient: 0.996323101412
+----------------------------
+Keypair: up | Fit:  
+-0.04743 x + 97.61
+Yvals Variance: 62.3215005543
+yvals Variance: 17575.2601822
+Covariance: 62.5278631389
+Coefficient: 0.0597453011884
+----------------------------
+Keypair: p< | Fit:  
+0.05668 x + 284.2
+Yvals Variance: 348.499314312
+yvals Variance: 27018.6795318
+Covariance: 349.236099331
+Coefficient: 0.113811488881
+----------------------------
+Keypair: ds | Fit:  
+0.09135 x - 9.847
+Yvals Variance: 141.468937375
+yvals Variance: 2301.28345493
+Covariance: 143.306196302
+Coefficient: 0.251159358803
+----------------------------
+Keypair: e< | Fit:  
+0.1291 x + 296.5
+Yvals Variance: 2626.70140335
+yvals Variance: 36084.4546185
+Covariance: 2628.11436807
+Coefficient: 0.269947204647
+----------------------------
+Keypair: <r | Fit:  
+0.2767 x - 14
+Yvals Variance: 13449.1122356
+yvals Variance: 35892.0400365
+Covariance: 13470.5964405
+Coefficient: 0.61311359309
+----------------------------
+Keypair: ak | Fit:  
+-0.06758 x + 95.56
+Yvals Variance: 609.76526406
+yvals Variance: 12987.4534606
+Covariance: 611.653082215
+Coefficient: 0.217351091787
+----------------------------
+Keypair: da | Fit:  
+-0.0598 x - 11.16
+Yvals Variance: 33.0810402402
+yvals Variance: 4811.77518777
+Covariance: 33.2363502883
+Coefficient: 0.0833050030308
+----------------------------
+Keypair: ni | Fit:  
+0.6811 x - 178.2
+Yvals Variance: 2801.93706728
+yvals Variance: 27413.719801
+Covariance: 2807.16456181
+Coefficient: 0.320298348635
+----------------------------
+Keypair: iä | Fit:  
+-0.0177 x + 252.4
+Yvals Variance: 31.5693051013
+yvals Variance: 31676.6920279
+Covariance: 31.6555600333
+Coefficient: 0.0316553834723
+----------------------------
+Keypair: <ä | Fit:  
+-0.334 x - 103.4
+Yvals Variance: 1048.13130902
+yvals Variance: 27730.7972941
+Covariance: 1049.86950356
+Coefficient: 0.194736022567
+----------------------------
+Keypair: j  | Fit:  
+-0.1345 x - 70.57
+Yvals Variance: 51.6389912262
+yvals Variance: 43128.8645219
+Covariance: 56.3334449741
+Coefficient: 0.0377479545563
+----------------------------
+Keypair: <u | Fit:  
+0.4333 x + 0.6655
+Yvals Variance: 11788.6238603
+yvals Variance: 39534.6874041
+Covariance: 11803.0707033
+Coefficient: 0.546731754376
+----------------------------
+Keypair:  r | Fit:  
+0.1092 x - 353.3
+Yvals Variance: 1340.24893229
+yvals Variance: 49208.514172
+Covariance: 1341.6567568
+Coefficient: 0.165207044261
+----------------------------
+Keypair: ra | Fit:  
+-0.1677 x + 130.5
+Yvals Variance: 806.10109017
+yvals Variance: 13480.7892086
+Covariance: 807.139880235
+Coefficient: 0.244847905237
+----------------------------
+Keypair: <h | Fit:  
+0.1396 x - 22
+Yvals Variance: 2011.78516775
+yvals Variance: 18118.3106433
+Covariance: 2015.24779282
+Coefficient: 0.333794212571
+----------------------------
+Keypair: hs | Fit:  
+-0.06381 x + 35.24
+Yvals Variance: 202.942062866
+yvals Variance: 17032.1098165
+Covariance: 204.456555873
+Coefficient: 0.109971660108
+----------------------------
+Keypair: ah | Fit:  
+-0.01996 x + 68.1
+Yvals Variance: 27.0756533976
+yvals Variance: 15802.9644571
+Covariance: 27.1284324491
+Coefficient: 0.0414730471244
+----------------------------
+Keypair: hk | Fit:  
+-0.06172 x + 51.16
+Yvals Variance: 91.5301316779
+yvals Variance: 9244.72100854
+Covariance: 91.8435910329
+Coefficient: 0.099843525534
+----------------------------
+Keypair: oj | Fit:  
+-0.32 x + 80.19
+Yvals Variance: 7713.29845358
+yvals Variance: 18752.8971374
+Covariance: 7744.78130441
+Coefficient: 0.643954088666
+----------------------------
+Keypair: <j | Fit:  
+0.164 x - 32.85
+Yvals Variance: 1917.00571105
+yvals Variance: 16352.5912811
+Covariance: 1921.59184912
+Coefficient: 0.34320701299
+----------------------------
+Keypair: ey | Fit:  
+-0.171 x + 27.43
+Yvals Variance: 693.164867901
+yvals Variance: 5116.18775501
+Covariance: 700.953237203
+Coefficient: 0.372218142338
+----------------------------
+Keypair: yk | Fit:  
+0.4307 x + 140.4
+Yvals Variance: 5269.08246922
+yvals Variance: 16155.32125
+Covariance: 5314.50559396
+Coefficient: 0.576020011242
+----------------------------
+Keypair: tl | Fit:  
+0.235 x + 105.9
+Yvals Variance: 2255.83885555
+yvals Variance: 12115.0249849
+Covariance: 2260.90815635
+Coefficient: 0.432480695827
+----------------------------
+Keypair: <k | Fit:  
+0.2428 x - 11.62
+Yvals Variance: 2327.89555146
+yvals Variance: 21310.9457648
+Covariance: 2329.3532193
+Coefficient: 0.330713742602
+----------------------------
+Keypair: eh | Fit:  
+0.2296 x + 183.8
+Yvals Variance: 2244.03344329
+yvals Variance: 21461.3764009
+Covariance: 2246.21211653
+Coefficient: 0.323673629161
+----------------------------
+Keypair: hd | Fit:  
+0.07592 x + 64.09
+Yvals Variance: 391.120151373
+yvals Variance: 10158.8956339
+Covariance: 391.573887047
+Coefficient: 0.196442465728
+----------------------------
+Keypair: ng | Fit:  
+0.2727 x - 18.52
+Yvals Variance: 3259.90605982
+yvals Variance: 12490.1510679
+Covariance: 3265.76920022
+Coefficient: 0.511798608329
+----------------------------
+Keypair: ge | Fit:  
+0.3462 x - 8.425
+Yvals Variance: 2992.37144264
+yvals Variance: 12047.3007452
+Covariance: 3001.38460963
+Coefficient: 0.49988375617
+----------------------------
+Keypair: ä< | Fit:  
+-0.2828 x + 131.7
+Yvals Variance: 4300.56968499
+yvals Variance: 27043.563752
+Covariance: 4303.05556342
+Coefficient: 0.399008363188
+----------------------------
+Keypair: my | Fit:  
+0.4953 x - 16.3
+Yvals Variance: 11388.0287802
+yvals Variance: 26361.1573013
+Covariance: 11426.5018504
+Coefficient: 0.659487821422
+----------------------------
+Keypair: öh | Fit:  
+0.04754 x + 111.6
+Yvals Variance: 202.176225537
+yvals Variance: 19540.3739669
+Covariance: 202.856953569
+Coefficient: 0.1020606715
+----------------------------
+Keypair: no | Fit:  
+-0.3556 x - 197.1
+Yvals Variance: 6106.95014075
+yvals Variance: 45814.9704628
+Covariance: 6115.66190986
+Coefficient: 0.365618006062
+----------------------------
+Keypair: lt | Fit:  
+0.2937 x + 37.18
+Yvals Variance: 4673.00296838
+yvals Variance: 16578.2254176
+Covariance: 4679.84484681
+Coefficient: 0.531697240356
+----------------------------
+Keypair: ao | Fit:  
+-0.2181 x + 63.24
+Yvals Variance: 7379.07241309
+yvals Variance: 19596.5062344
+Covariance: 7416.72074173
+Coefficient: 0.616767833766
+----------------------------
+Keypair: ns | Fit:  
+0.1425 x - 13.01
+Yvals Variance: 2712.96014283
+yvals Variance: 17671.0313895
+Covariance: 2718.76947932
+Coefficient: 0.392662773712
+----------------------------
+Keypair: sk | Fit:  
+-0.03974 x + 78.21
+Yvals Variance: 172.49189627
+yvals Variance: 20467.0723462
+Covariance: 172.981930066
+Coefficient: 0.0920637218001
+----------------------------
+Keypair: hi | Fit:  
+0.1127 x - 112.3
+Yvals Variance: 432.069837525
+yvals Variance: 18455.3585884
+Covariance: 433.333199623
+Coefficient: 0.153455954471
+----------------------------
+Keypair: kp | Fit:  
+-0.529 x - 125.6
+Yvals Variance: 3347.71527234
+yvals Variance: 11165.5354046
+Covariance: 3400.02332347
+Coefficient: 0.5561191662
+----------------------------
+Keypair: pn | Fit:  
+-0.7591 x + 101.4
+Yvals Variance: 8352.38505488
+yvals Variance: 17180.1889368
+Covariance: 8519.43275597
+Coefficient: 0.711199524765
+----------------------------
+Keypair: y< | Fit:  
+0.196 x + 238.4
+Yvals Variance: 4110.31865288
+yvals Variance: 28720.4488148
+Covariance: 4114.19265726
+Coefficient: 0.378661601734
+----------------------------
+Keypair: ir | Fit:  
+0.005844 x + 73.28
+Yvals Variance: 2.30054290203
+yvals Variance: 14142.0635365
+Covariance: 2.3056666056
+Coefficient: 0.0127827692445
+----------------------------
+Keypair: rl | Fit:  
+0.3039 x + 47.02
+Yvals Variance: 7886.02141937
+yvals Variance: 15879.0227301
+Covariance: 8003.7232316
+Coefficient: 0.715239022517
+----------------------------
+Keypair: n< | Fit:  
+-0.06048 x + 18.22
+Yvals Variance: 296.691794876
+yvals Variance: 20292.5564597
+Covariance: 296.861818827
+Coefficient: 0.120985464034
+----------------------------
+Keypair: ji | Fit:  
+-0.5415 x - 134.7
+Yvals Variance: 2099.97716831
+yvals Variance: 9576.56976136
+Covariance: 2129.14351787
+Coefficient: 0.474780268628
+----------------------------
+Keypair: ha | Fit:  
+0.03217 x + 61.37
+Yvals Variance: 119.175566512
+yvals Variance: 13632.8273548
+Covariance: 119.300357681
+Coefficient: 0.0935955424763
+----------------------------
+Keypair: va | Fit:  
+0.1986 x - 23.05
+Yvals Variance: 2796.26960718
+yvals Variance: 15433.314014
+Covariance: 2797.54585986
+Coefficient: 0.425851417413
+----------------------------
+Keypair: ee | Fit:  
+0.4912 x + 57.38
+Yvals Variance: 4030.1961646
+yvals Variance: 15341.5471538
+Covariance: 4037.55053716
+Coefficient: 0.513476176942
+----------------------------
+Keypair: ea | Fit:  
+-0.6602 x + 42.88
+Yvals Variance: 4534.46617439
+yvals Variance: 11083.5738171
+Covariance: 4565.95552283
+Coefficient: 0.644063495004
+----------------------------
+Keypair: am | Fit:  
+0.1071 x + 189.5
+Yvals Variance: 1791.04256417
+yvals Variance: 200567.701089
+Covariance: 1793.75626502
+Coefficient: 0.0946411435244
+----------------------------
+Keypair: iö | Fit:  
+0.02336 x + 135.6
+Yvals Variance: 28.4751981382
+yvals Variance: 9317.12118376
+Covariance: 28.7438320829
+Coefficient: 0.0558046537304
+----------------------------
+Keypair: öl | Fit:  
+0.0124 x - 36.67
+Yvals Variance: 4.27655773752
+yvals Variance: 2612.22392253
+Covariance: 4.32157413476
+Coefficient: 0.0408874095556
+----------------------------
+Keypair: <l | Fit:  
+0.3038 x - 35.11
+Yvals Variance: 1924.02729301
+yvals Variance: 17823.3653538
+Covariance: 1925.55308784
+Coefficient: 0.328817579225
+----------------------------
+Keypair: rp | Fit:  
+-0.05199 x + 127.5
+Yvals Variance: 273.047399623
+yvals Variance: 15317.1174964
+Covariance: 273.985706838
+Coefficient: 0.133973950302
+----------------------------
+Keypair: iy | Fit:  
+0.2034 x + 126.5
+Yvals Variance: 3616.02067309
+yvals Variance: 14175.1606494
+Covariance: 3627.14689054
+Coefficient: 0.506623926698
+----------------------------
+Keypair: hj | Fit:  
+-0.3933 x + 42.15
+Yvals Variance: 2984.85524054
+yvals Variance: 13339.4138799
+Covariance: 2996.74709409
+Coefficient: 0.474919587932
+----------------------------
+Keypair: ib | Fit:  
+-0.2918 x + 205.1
+Yvals Variance: 1066.2189674
+yvals Variance: 20444.5892831
+Covariance: 1073.23356587
+Coefficient: 0.229869763902
+----------------------------
+Keypair: ba | Fit:  
+0.1882 x - 8.913
+Yvals Variance: 2838.13767717
+yvals Variance: 5954.71732247
+Covariance: 2943.25388744
+Coefficient: 0.715946255207
+----------------------------
+Keypair: <n | Fit:  
+0.1393 x + 54.97
+Yvals Variance: 915.060322586
+yvals Variance: 14411.1494967
+Covariance: 915.668740354
+Coefficient: 0.252153043358
+----------------------------
+Keypair: mn | Fit:  
+0.2379 x - 1.672
+Yvals Variance: 324.634386349
+yvals Variance: 1645.1794933
+Covariance: 347.822556803
+Coefficient: 0.475941789893
+----------------------------
+Keypair: tö | Fit:  
+0.1337 x + 182.2
+Yvals Variance: 1186.95963755
+yvals Variance: 21491.0857804
+Covariance: 1188.68989941
+Coefficient: 0.235353910169
+----------------------------
+Keypair: öi | Fit:  
+0.419 x + 4.446
+Yvals Variance: 3446.91148699
+yvals Variance: 14066.1195357
+Covariance: 3456.32927794
+Coefficient: 0.496378420345
+----------------------------
+Keypair: sä | Fit:  
+-0.05353 x + 117.3
+Yvals Variance: 632.004478292
+yvals Variance: 17369.76429
+Covariance: 632.548840462
+Coefficient: 0.190913668811
+----------------------------
+Keypair: <o | Fit:  
+0.5165 x - 90.5
+Yvals Variance: 6017.71653172
+yvals Variance: 33333.8174795
+Covariance: 6025.57255852
+Coefficient: 0.425441578029
+----------------------------
+Keypair: m< | Fit:  
+0.09564 x - 42.53
+Yvals Variance: 570.317253769
+yvals Variance: 18217.0657776
+Covariance: 571.84625445
+Coefficient: 0.177411518202
+----------------------------
+Keypair: nh | Fit:  
+0.1966 x - 84.83
+Yvals Variance: 2084.17325682
+yvals Variance: 7127.16761074
+Covariance: 2119.49822728
+Coefficient: 0.549930316471
+----------------------------
+Keypair: h< | Fit:  
+0.211 x + 71.79
+Yvals Variance: 5886.21068867
+yvals Variance: 40011.7409675
+Covariance: 5925.19221641
+Coefficient: 0.386092013277
+----------------------------
+Keypair: <g | Fit:  
+0.2696 x + 24.17
+Yvals Variance: 9016.77340135
+yvals Variance: 17410.1728495
+Covariance: 9204.62284721
+Coefficient: 0.734647286892
+----------------------------
+Keypair: gr | Fit:  
+0.5232 x + 38.59
+Yvals Variance: 11279.0677647
+yvals Variance: 19485.9900545
+Covariance: 12084.7154622
+Coefficient: 0.815151980507
+----------------------------
+Keypair: mu | Fit:  
+0.707 x - 11.85
+Yvals Variance: 15316.3082449
+yvals Variance: 30098.3858521
+Covariance: 15339.2368501
+Coefficient: 0.71442246358
+----------------------------
+Keypair: yy | Fit:  
+-0.1045 x - 11.73
+Yvals Variance: 77.7659636701
+yvals Variance: 2615.0221569
+Covariance: 78.4033896018
+Coefficient: 0.173861080107
+----------------------------
+Keypair: y  | Fit:  
+0.2397 x + 443.9
+Yvals Variance: 5546.23740106
+yvals Variance: 62183.1580887
+Covariance: 5557.93832385
+Coefficient: 0.299280284594
+----------------------------
+Keypair: ab | Fit:  
+-0.08337 x + 183.3
+Yvals Variance: 932.20413765
+yvals Variance: 19832.3877339
+Covariance: 939.320199769
+Coefficient: 0.218459354667
+----------------------------
+Keypair: b< | Fit:  
+-0.1223 x + 82.26
+Yvals Variance: 1109.53342116
+yvals Variance: 35078.6017948
+Covariance: 1111.31151959
+Coefficient: 0.1781330421
+----------------------------
+Keypair: <v | Fit:  
+-0.041 x - 15.1
+Yvals Variance: 163.051943198
+yvals Variance: 14784.5756121
+Covariance: 163.420006275
+Coefficient: 0.105253804312
+----------------------------
+Keypair: kr | Fit:  
+0.05024 x - 56.88
+Yvals Variance: 209.892381535
+yvals Variance: 11414.3646131
+Covariance: 212.516036304
+Coefficient: 0.137299039448
+----------------------------
+Keypair: äb | Fit:  
+0.0506 x + 113.9
+Yvals Variance: 121.995307739
+yvals Variance: 15589.0046803
+Covariance: 124.832407919
+Coefficient: 0.0905204263129
+----------------------------
+Keypair: <  | Fit:  
+0.02333 x + 111.8
+Yvals Variance: 48.1688399802
+yvals Variance: 26306.2263615
+Covariance: 48.2751729603
+Coefficient: 0.0428855977959
+----------------------------
+Keypair: lr | Fit:  
+0.226 x + 30.51
+Yvals Variance: 5710.91836663
+yvals Variance: 21439.2559919
+Covariance: 5730.95667669
+Coefficient: 0.517927885522
+----------------------------
+Keypair: äu | Fit:  
+0.2763 x + 24.31
+Yvals Variance: 5376.74779536
+yvals Variance: 11907.7488426
+Covariance: 5484.28275126
+Coefficient: 0.685401691094
+----------------------------
+Keypair: <y | Fit:  
+0.4577 x - 3.173
+Yvals Variance: 21926.4037986
+yvals Variance: 41738.531882
+Covariance: 21985.187723
+Coefficient: 0.726738034173
+----------------------------
+Keypair: yd | Fit:  
+0.04689 x + 278.1
+Yvals Variance: 191.226464853
+yvals Variance: 24959.334082
+Covariance: 191.902176743
+Coefficient: 0.0878394091155
+----------------------------
+Keypair: t  | Fit:  
+0.2073 x + 454.4
+Yvals Variance: 3765.73722826
+yvals Variance: 58528.1309466
+Covariance: 3767.03396973
+Coefficient: 0.253741908985
+----------------------------
+Keypair: jp | Fit:  
+-0.5422 x - 58.93
+Yvals Variance: 6137.99801073
+yvals Variance: 10732.0386517
+Covariance: 6265.87296929
+Coefficient: 0.772017420504
+----------------------------
+Keypair: mo | Fit:  
+0.9384 x - 113.7
+Yvals Variance: 8585.9985298
+yvals Variance: 24973.0044181
+Covariance: 8684.68816808
+Coefficient: 0.593093859172
+----------------------------
+Keypair: uö | Fit:  
+0.2288 x + 108.9
+Yvals Variance: 1160.45900649
+yvals Variance: 13082.9099995
+Covariance: 1167.7574908
+Coefficient: 0.299699199672
+----------------------------
+Keypair: kk | Fit:  
+0.6766 x + 30.72
+Yvals Variance: 2384.82353414
+yvals Variance: 6920.40798239
+Covariance: 2401.270593
+Coefficient: 0.591081176046
+----------------------------
+Keypair: k< | Fit:  
+-0.01605 x + 169.2
+Yvals Variance: 23.8650124536
+yvals Variance: 26131.8508079
+Covariance: 23.8900019955
+Coefficient: 0.0302517336723
+----------------------------
+Keypair: <m | Fit:  
+-0.01521 x + 2.577
+Yvals Variance: 4.95174760153
+yvals Variance: 17938.6869955
+Covariance: 4.95973429121
+Coefficient: 0.0166411691323
+----------------------------
+Keypair: ap | Fit:  
+-0.237 x + 124.1
+Yvals Variance: 11100.616696
+yvals Variance: 26390.0447149
+Covariance: 11121.0222414
+Coefficient: 0.649757188422
+----------------------------
+Keypair: vs | Fit:  
+0.1841 x - 12.85
+Yvals Variance: 1873.32105154
+yvals Variance: 18641.0051956
+Covariance: 1880.9053473
+Coefficient: 0.318292327941
+----------------------------
+Keypair: uk | Fit:  
+0.604 x + 139.1
+Yvals Variance: 2333.1396353
+yvals Variance: 11866.0301291
+Covariance: 2336.87864113
+Coefficient: 0.444133027315
+----------------------------
+Keypair: nd | Fit:  
+0.07659 x - 8.763
+Yvals Variance: 610.722420027
+yvals Variance: 9268.71596873
+Covariance: 651.437248029
+Coefficient: 0.273804680902
+----------------------------
+Keypair: yt | Fit:  
+-0.2223 x + 17.94
+Yvals Variance: 944.341961971
+yvals Variance: 20083.5788612
+Covariance: 946.473659402
+Coefficient: 0.217331829018
+----------------------------
+Keypair: py | Fit:  
+0.2142 x + 155.2
+Yvals Variance: 2952.33211511
+yvals Variance: 15006.4696927
+Covariance: 3247.56532662
+Coefficient: 0.48790584715
+----------------------------
+Keypair: vu | Fit:  
+-1.102 x - 255.6
+Yvals Variance: 6332.90577088
+yvals Variance: 26330.0949524
+Covariance: 6363.94942662
+Coefficient: 0.492832107638
+----------------------------
+Keypair: rt | Fit:  
+0.5474 x + 54.42
+Yvals Variance: 4385.20724989
+yvals Variance: 20324.6210755
+Covariance: 4402.81852398
+Coefficient: 0.466363437254
+----------------------------
+Keypair: ub | Fit:  
+0.2512 x + 315.8
+Yvals Variance: 193.463915067
+yvals Variance: 13483.1637513
+Covariance: 209.585907989
+Coefficient: 0.129767574678
+----------------------------
+Keypair: bn | Fit:  
+0.2707 x - 65.17
+Yvals Variance: 226.845784992
+yvals Variance: 1574.98252299
+Covariance: 272.214941991
+Coefficient: 0.455416470967
+----------------------------
+Keypair: um | Fit:  
+0.3167 x + 237.9
+Yvals Variance: 3846.50177299
+yvals Variance: 13383.3185078
+Covariance: 4048.94923473
+Coefficient: 0.564322616942
+----------------------------
+Keypair: je | Fit:  
+0.2771 x + 23.01
+Yvals Variance: 4028.47869351
+yvals Variance: 12200.1814171
+Covariance: 4050.37259945
+Coefficient: 0.577751785826
+----------------------------
+Keypair: öu | Fit:  
+0.3499 x + 11.85
+Yvals Variance: 3583.13366544
+yvals Variance: 14121.0959065
+Covariance: 3645.99565957
+Coefficient: 0.512566763012
+----------------------------
+Keypair: ih | Fit:  
+-0.2435 x + 101.9
+Yvals Variance: 1251.60979856
+yvals Variance: 9602.90588055
+Covariance: 1258.97220914
+Coefficient: 0.363145218402
+----------------------------
+Keypair: j< | Fit:  
+0.1032 x + 123.6
+Yvals Variance: 1730.65084584
+yvals Variance: 17654.0891401
+Covariance: 1734.98831664
+Coefficient: 0.313883992146
+----------------------------
+Keypair: sö | Fit:  
+-0.032 x + 63.07
+Yvals Variance: 193.209894135
+yvals Variance: 5676.98464902
+Covariance: 200.9382899
+Coefficient: 0.191862085408
+----------------------------
+Keypair: ö< | Fit:  
+0.09045 x + 194.2
+Yvals Variance: 775.158018413
+yvals Variance: 32512.5371833
+Covariance: 776.270153303
+Coefficient: 0.154629494273
+----------------------------
+Keypair: rm | Fit:  
+0.3911 x + 182.7
+Yvals Variance: 11843.1842333
+yvals Variance: 30047.7072616
+Covariance: 11876.8296431
+Coefficient: 0.629594049595
+----------------------------
+Keypair: mt | Fit:  
+0.5431 x + 73.47
+Yvals Variance: 18536.4215016
+yvals Variance: 31576.0538393
+Covariance: 19962.3000786
+Coefficient: 0.825123021895
+----------------------------
+Keypair: mk | Fit:  
+0.6906 x - 8.678
+Yvals Variance: 6826.90897224
+yvals Variance: 16104.4820505
+Covariance: 7186.21997078
+Coefficient: 0.685354186391
+----------------------------
+Keypair: kn | Fit:  
+0.05697 x + 136.9
+Yvals Variance: 6.96809748394
+yvals Variance: 6077.57026204
+Covariance: 7.83910966944
+Coefficient: 0.0380929526769
+----------------------------
+Keypair:  c | Fit:  
+0.3629 x - 54.45
+Yvals Variance: 19231.7341844
+yvals Variance: 56699.387993
+Covariance: 19632.3953133
+Coefficient: 0.594531515262
+----------------------------
+Keypair: cm | Fit:  
+-0.1523 x + 68.76
+Yvals Variance: 1640.81022149
+yvals Variance: 3689.76299791
+Covariance: 1737.32846982
+Coefficient: 0.706079373056
+----------------------------
+Keypair: äa | Fit:  
+0.003694 x + 115.1
+Yvals Variance: 3.32887082039
+yvals Variance: 20097.3803306
+Covariance: 3.44365946937
+Coefficient: 0.0133137991913
+----------------------------
+Keypair: öä | Fit:  
+-0.4838 x - 24.96
+Yvals Variance: 3375.44181117
+yvals Variance: 8247.26343829
+Covariance: 3419.85551921
+Coefficient: 0.648167889481
+----------------------------
+Keypair: oe | Fit:  
+-0.004896 x + 113.6
+Yvals Variance: 2.8923634061
+yvals Variance: 14947.3701367
+Covariance: 2.95663814846
+Coefficient: 0.0142196645925
+----------------------------
+Keypair: <p | Fit:  
+0.6058 x - 118.5
+Yvals Variance: 4762.95017375
+yvals Variance: 37123.9528948
+Covariance: 4773.53450747
+Coefficient: 0.358983874666
+----------------------------
+Keypair: jö | Fit:  
+-0.2216 x + 107.6
+Yvals Variance: 853.550951902
+yvals Variance: 3815.54745236
+Covariance: 914.518877038
+Coefficient: 0.506756723335
+----------------------------
+Keypair: do | Fit:  
+-0.2814 x + 61.38
+Yvals Variance: 6896.4062065
+yvals Variance: 19830.6866478
+Covariance: 6919.31785503
+Coefficient: 0.591674685096
+----------------------------
+Keypair: tn | Fit:  
+0.1159 x + 272.5
+Yvals Variance: 1852.5042071
+yvals Variance: 42434.6396568
+Covariance: 2223.00504852
+Coefficient: 0.250726702064
+----------------------------
+Keypair: ök | Fit:  
+0
+Yvals Variance: 0.0
+yvals Variance: 0.0
+Covariance: 0.0
+Coefficient: nan
+----------------------------
+Keypair:  i | Fit:  
+-1.999 x - 85.33
+Yvals Variance: 35641.9763235
+yvals Variance: 58690.5334108
+Covariance: 35963.0752093
+Coefficient: 0.786306569665
+----------------------------
+Keypair: yl | Fit:  
+0.3049 x + 133.6
+Yvals Variance: 2492.54880373
+yvals Variance: 16451.8796642
+Covariance: 2496.4312785
+Coefficient: 0.389843249115
+----------------------------
+Keypair: rr | Fit:  
+0.4781 x + 47.98
+Yvals Variance: 2862.38644253
+yvals Variance: 10144.2240244
+Covariance: 2878.28858943
+Coefficient: 0.534146992054
+----------------------------
+Keypair: ov | Fit:  
+-0.7484 x + 58.62
+Yvals Variance: 20391.7959117
+yvals Variance: 35583.3408686
+Covariance: 20495.3075661
+Coefficient: 0.760857527397
+----------------------------
+Keypair: ob | Fit:  
+-0.9981 x + 34.63
+Yvals Variance: 16235.4020801
+yvals Variance: 21643.5511724
+Covariance: 16422.0158972
+Coefficient: 0.876053611303
+----------------------------
+Keypair: bg | Fit:  
+0.3999 x - 17.72
+Yvals Variance: 4553.61628568
+yvals Variance: 12778.2237635
+Covariance: 4793.28030072
+Coefficient: 0.62837567689
+----------------------------
+Keypair: iv | Fit:  
+-0.916 x + 70.32
+Yvals Variance: 17487.4030509
+yvals Variance: 32914.8334126
+Covariance: 17579.4420143
+Coefficient: 0.732734424412
+----------------------------
+Keypair: öp | Fit:  
+-0.04557 x - 89.22
+Yvals Variance: 10.4037492055
+yvals Variance: 18098.6552541
+Covariance: 10.4357607415
+Coefficient: 0.0240494983885
+----------------------------
+Keypair: ip | Fit:  
+-0.08431 x + 37.15
+Yvals Variance: 84.8692077474
+yvals Variance: 5934.59093746
+Covariance: 85.4350024657
+Coefficient: 0.120383057047
+----------------------------
+Keypair: io | Fit:  
+0.212 x + 51.25
+Yvals Variance: 890.688802811
+yvals Variance: 16245.6185021
+Covariance: 893.437842326
+Coefficient: 0.234873068624
+----------------------------
+Keypair: mr | Fit:  
+0.3897 x + 40.09
+Yvals Variance: 17486.2107513
+yvals Variance: 30596.8434604
+Covariance: 17710.3929404
+Coefficient: 0.765670704033
+----------------------------
+Keypair: lp | Fit:  
+0.04737 x - 98.07
+Yvals Variance: 18.7938358577
+yvals Variance: 20739.8123759
+Covariance: 20.2395155391
+Coefficient: 0.0324182813084
+----------------------------
+Keypair: ek | Fit:  
+0.1489 x + 163.2
+Yvals Variance: 1966.71020357
+yvals Variance: 24562.4090663
+Covariance: 1973.28782966
+Coefficient: 0.283912668675
+----------------------------
+Keypair: ln | Fit:  
+-1.2 x - 4.714
+Yvals Variance: 1292.01460083
+yvals Variance: 13186.6790145
+Covariance: 1938.02190124
+Coefficient: 0.469523411887
+----------------------------
+Keypair: ny | Fit:  
+0.4758 x - 41.37
+Yvals Variance: 6313.76064362
+yvals Variance: 42597.9280743
+Covariance: 6335.38311158
+Coefficient: 0.386308787915
+----------------------------
+Keypair: aå | Fit:  
+-0.2038 x - 15.08
+Yvals Variance: 10087.2010199
+yvals Variance: 11691.8379925
+Covariance: 10591.5610709
+Coefficient: 0.975288812372
+----------------------------
+Keypair: å< | Fit:  
+0.1399 x + 228.8
+Yvals Variance: 775.560721309
+yvals Variance: 23204.2385321
+Covariance: 779.686044294
+Coefficient: 0.183792674372
+----------------------------
+Keypair: uå | Fit:  
+-0.1897 x + 67.63
+Yvals Variance: 1116.81420431
+yvals Variance: 5050.96109402
+Covariance: 1218.34276834
+Coefficient: 0.512970055135
+----------------------------
+Keypair: sd | Fit:  
+0.172 x - 34.92
+Yvals Variance: 215.915764872
+yvals Variance: 2271.86710881
+Covariance: 220.713892981
+Coefficient: 0.315134559033
+----------------------------
+Keypair:    | Fit:  
+-0.0844 x - 115.7
+Yvals Variance: 776.17843566
+yvals Variance: 48621.8423125
+Covariance: 779.107410889
+Coefficient: 0.12682382396
+----------------------------
+Keypair: öo | Fit:  
+0.9773 x - 23.78
+Yvals Variance: 4407.12256185
+yvals Variance: 9503.21631527
+Covariance: 4721.91703055
+Coefficient: 0.729634700164
+----------------------------
+Keypair: r  | Fit:  
+1.161 x + 300.4
+Yvals Variance: 22480.1965266
+yvals Variance: 49946.0384919
+Covariance: 23205.3641565
+Coefficient: 0.692528757791
+----------------------------
+Keypair: pb | Fit:  
+-1 x - 17.96
+Yvals Variance: 23705.845937
+yvals Variance: 27887.2078643
+Covariance: 35558.7689056
+Coefficient: 1.38298181947
+----------------------------
+Keypair: b  | Fit:  
+-0.3862 x + 40.48
+Yvals Variance: 1326.83773378
+yvals Variance: 9972.39374518
+Covariance: 1348.58917204
+Coefficient: 0.370741371837
+----------------------------
+Keypair: <ö | Fit:  
+0.1393 x + 29.64
+Yvals Variance: 1650.78368836
+yvals Variance: 34546.0623656
+Covariance: 1662.745889
+Coefficient: 0.220181852807
+----------------------------
+Keypair: ly | Fit:  
+0.3942 x - 7.807
+Yvals Variance: 6479.9921214
+yvals Variance: 9556.20992462
+Covariance: 6586.22150044
+Coefficient: 0.83696298709
+----------------------------
+Keypair: ys | Fit:  
+-0.3275 x - 1.881
+Yvals Variance: 6061.53217236
+yvals Variance: 12394.8794608
+Covariance: 6167.87484205
+Coefficient: 0.71157911237
+----------------------------
+Keypair: td | Fit:  
+-0.3513 x + 25.72
+Yvals Variance: 2907.98096184
+yvals Variance: 6763.58340013
+Covariance: 3015.68396042
+Coefficient: 0.679988584394
+----------------------------
+Keypair: tå | Fit:  
+0.1134 x + 95.71
+Yvals Variance: 1280.40654571
+yvals Variance: 11718.3868956
+Covariance: 1408.44720029
+Coefficient: 0.363607398704
+----------------------------
+Keypair: åm | Fit:  
+-0.7899 x + 176.7
+Yvals Variance: 4834.80441616
+yvals Variance: 13660.4244062
+Covariance: 5274.33209036
+Coefficient: 0.649001827594
+----------------------------
+Keypair: ya | Fit:  
+-0.3803 x - 19.59
+Yvals Variance: 8638.63805604
+yvals Variance: 11863.3623871
+Covariance: 8718.62544545
+Coefficient: 0.861234627522
+----------------------------
+Keypair: öj | Fit:  
+0.009608 x + 8.498
+Yvals Variance: 3.07746291533
+yvals Variance: 6617.96439267
+Covariance: 3.10422346242
+Coefficient: 0.0217517573517
+----------------------------
+Keypair:  ö | Fit:  
+-0.6926 x - 171.5
+Yvals Variance: 14668.8887909
+yvals Variance: 32096.0249353
+Covariance: 14849.9861834
+Coefficient: 0.684387103521
+----------------------------
+Keypair: öe | Fit:  
+0.1803 x + 59.23
+Yvals Variance: 4639.66372945
+yvals Variance: 15347.9676984
+Covariance: 4701.52591251
+Coefficient: 0.557147444978
+----------------------------
+Keypair: äj | Fit:  
+-0.1362 x + 4.925
+Yvals Variance: 2013.01696126
+yvals Variance: 12206.6351982
+Covariance: 2022.98239176
+Coefficient: 0.408103578299
+----------------------------
+Keypair: tp | Fit:  
+-0.09957 x + 67.64
+Yvals Variance: 684.138998765
+yvals Variance: 8275.60288368
+Covariance: 708.572534435
+Coefficient: 0.297791515055
+----------------------------
+Keypair: dr | Fit:  
+-1.344 x - 51.66
+Yvals Variance: 12676.6457582
+yvals Variance: 15903.5351199
+Covariance: 13944.3103341
+Coefficient: 0.982082621921
+----------------------------
+Keypair: yu | Fit:  
+-0.4251 x + 44.49
+Yvals Variance: 885.153854286
+yvals Variance: 8286.92775582
+Covariance: 911.976698356
+Coefficient: 0.336726722488
+----------------------------
+Keypair: tr | Fit:  
+0.003077 x + 18.74
+Yvals Variance: 0.167463472491
+yvals Variance: 6567.65195779
+Covariance: 0.17074706999
+Coefficient: 0.00514858810222
+----------------------------
+Keypair: ig | Fit:  
+-0.04377 x + 110.8
+Yvals Variance: 79.7552525111
+yvals Variance: 13400.0869259
+Covariance: 83.3804912616
+Coefficient: 0.0806549441073
+----------------------------
+Keypair: iå | Fit:  
+-0.08013 x + 88.69
+Yvals Variance: 131.164077139
+yvals Variance: 6847.39811986
+Covariance: 144.280484853
+Coefficient: 0.152243005684
+----------------------------
+Keypair: oo | Fit:  
+0.8877 x + 58.14
+Yvals Variance: 2447.41995661
+yvals Variance: 9870.22467145
+Covariance: 2480.49319927
+Coefficient: 0.504684855803
+----------------------------
+Keypair: oy | Fit:  
+0.08869 x + 49.6
+Yvals Variance: 399.449409075
+yvals Variance: 5042.77379855
+Covariance: 404.148813888
+Coefficient: 0.284757829008
+----------------------------
+Keypair: tj | Fit:  
+0.4368 x + 74.34
+Yvals Variance: 1486.37203443
+yvals Variance: 4326.87681349
+Covariance: 1621.49676484
+Coefficient: 0.639388849513
+----------------------------
+Keypair: nj | Fit:  
+0.3731 x - 28.07
+Yvals Variance: 1967.75012547
+yvals Variance: 16280.6761925
+Covariance: 2027.37891715
+Coefficient: 0.358190226992
+----------------------------
+Keypair: du | Fit:  
+-0.3917 x + 55.23
+Yvals Variance: 6496.17950673
+yvals Variance: 11696.3661675
+Covariance: 7308.20194507
+Coefficient: 0.838409234382
+----------------------------
+Keypair: äo | Fit:  
+-0.7144 x - 170.5
+Yvals Variance: 18262.0805252
+yvals Variance: 47931.4534878
+Covariance: 18783.8542545
+Coefficient: 0.634891165186
+----------------------------
+Keypair: sv | Fit:  
+0.1668 x + 98.44
+Yvals Variance: 1369.97000357
+yvals Variance: 7868.16888897
+Covariance: 1404.21925366
+Coefficient: 0.427703257264
+----------------------------
+Keypair: sl | Fit:  
+-0.04276 x + 62.4
+Yvals Variance: 220.693698363
+yvals Variance: 11940.7564722
+Covariance: 222.579969289
+Coefficient: 0.137111913342
+----------------------------
+Keypair: l  | Fit:  
+-0.02326 x + 162.6
+Yvals Variance: 55.0773810451
+yvals Variance: 38492.6654232
+Covariance: 56.178928666
+Coefficient: 0.0385831623102
+----------------------------
+Keypair: by | Fit:  
+1.468 x + 50.56
+Yvals Variance: 23273.5953417
+yvals Variance: 32957.5891814
+Covariance: 24076.1331121
+Coefficient: 0.869315210001
+----------------------------
+Keypair: sp | Fit:  
+-0.1828 x + 42.78
+Yvals Variance: 5749.91096825
+yvals Variance: 16252.746034
+Covariance: 5867.25609005
+Coefficient: 0.606933500777
+----------------------------
+Keypair: aö | Fit:  
+-0.07904 x + 84.03
+Yvals Variance: 1217.29694926
+yvals Variance: 10066.179283
+Covariance: 1225.15047796
+Coefficient: 0.349992579377
+----------------------------
+Keypair: ho | Fit:  
+-0.5356 x - 53.19
+Yvals Variance: 7400.93775565
+yvals Variance: 10156.6431162
+Covariance: 7753.36336306
+Coefficient: 0.894276185486
+----------------------------
+Keypair: lö | Fit:  
+-0.01979 x + 15.15
+Yvals Variance: 27.9437753838
+yvals Variance: 15313.5569515
+Covariance: 28.1785970257
+Coefficient: 0.0430763390407
+----------------------------
+Keypair: p  | Fit:  
+-0.8941 x + 6.859
+Yvals Variance: 42028.5740086
+yvals Variance: 49932.9397849
+Covariance: 42740.9227207
+Coefficient: 0.932992168662
+----------------------------
+Keypair: eö | Fit:  
+0.1636 x + 90.61
+Yvals Variance: 2961.07936124
+yvals Variance: 17017.6969838
+Covariance: 3011.26714702
+Coefficient: 0.424203130529
+----------------------------
+Keypair: rä | Fit:  
+-0.06974 x + 321.4
+Yvals Variance: 636.994939845
+yvals Variance: 52551.2515347
+Covariance: 644.48899796
+Coefficient: 0.111392508726
+----------------------------
+Keypair: <b | Fit:  
+-0.01731 x - 41.17
+Yvals Variance: 16.0618040944
+yvals Variance: 2427.54033405
+Covariance: 18.3563475364
+Coefficient: 0.0929620906178
+----------------------------
+Keypair: rn | Fit:  
+0.4355 x + 205.4
+Yvals Variance: 11039.0017407
+yvals Variance: 31899.0166602
+Covariance: 11131.7664613
+Coefficient: 0.593212833394
+----------------------------
+Keypair: vk | Fit:  
+-0.924 x - 102.8
+Yvals Variance: 13224.6155269
+yvals Variance: 17807.9220727
+Covariance: 13518.4958719
+Coefficient: 0.880907326586
+----------------------------
+Keypair: ay | Fit:  
+-0.6109 x + 152.9
+Yvals Variance: 19092.6062129
+yvals Variance: 33948.2257815
+Covariance: 19274.4405578
+Coefficient: 0.757078011711
+----------------------------
+Keypair: pv | Fit:  
+-0.619 x - 41.23
+Yvals Variance: 22260.8923099
+yvals Variance: 24965.9537153
+Covariance: 24734.3247887
+Coefficient: 1.04919133302
+----------------------------
+Keypair: uz | Fit:  
+-0.4734 x - 64.98
+Yvals Variance: 16716.344284
+yvals Variance: 23468.4418691
+Covariance: 18805.8873195
+Coefficient: 0.949469564149
+----------------------------
+Keypair: z< | Fit:  
+0.06264 x + 24.27
+Yvals Variance: 948.268420259
+yvals Variance: 9821.18923792
+Covariance: 959.693340985
+Coefficient: 0.31447403847
+----------------------------
+Keypair: pm | Fit:  
+-0.2393 x + 234.6
+Yvals Variance: 187.029846897
+yvals Variance: 26906.3920967
+Covariance: 191.186065717
+Coefficient: 0.0852261840721
+----------------------------
+Keypair: rö | Fit:  
+0.02836 x + 262.8
+Yvals Variance: 87.4645763262
+yvals Variance: 20469.99618
+Covariance: 90.0370638652
+Coefficient: 0.0672893518213
+----------------------------
+Keypair: ye | Fit:  
+0.01143 x + 33.55
+Yvals Variance: 4.43180064302
+yvals Variance: 6029.90076634
+Covariance: 4.55842351854
+Coefficient: 0.0278849250794
+----------------------------
+Keypair: kj | Fit:  
+0.403 x + 82.2
+Yvals Variance: 2445.41619708
+yvals Variance: 4630.07433149
+Covariance: 2574.12231271
+Coefficient: 0.764995367554
+----------------------------
+Keypair: ej | Fit:  
+0.2835 x + 86.71
+Yvals Variance: 2814.26390728
+yvals Variance: 7360.3371372
+Covariance: 2856.90426951
+Coefficient: 0.627717770955
+----------------------------
+Keypair: ev | Fit:  
+0.9537 x + 164.4
+Yvals Variance: 24247.0396553
+yvals Variance: 46364.0166143
+Covariance: 25673.3361056
+Coefficient: 0.76570664971
+----------------------------
+Keypair: v< | Fit:  
+-0.01888 x - 55.05
+Yvals Variance: 30.7339757994
+yvals Variance: 21350.5364865
+Covariance: 30.9037767707
+Coefficient: 0.0381502852453
+----------------------------
+Keypair: hf | Fit:  
+0.216 x + 85.66
+Yvals Variance: 1140.71416746
+yvals Variance: 4147.25193029
+Covariance: 1228.46141111
+Coefficient: 0.564797664395
+----------------------------
+Keypair: fo | Fit:  
+-0.2359 x + 45.1
+Yvals Variance: 2512.30075177
+yvals Variance: 10466.3767069
+Covariance: 2691.75080547
+Coefficient: 0.524929350916
+----------------------------
+Keypair: f< | Fit:  
+-0.02084 x + 232.4
+Yvals Variance: 89.4756373208
+yvals Variance: 13494.5650813
+Covariance: 92.2717509871
+Coefficient: 0.0839724676471
+----------------------------
+Keypair: öö | Fit:  
+0.3525 x - 3.204
+Yvals Variance: 706.263495989
+yvals Variance: 2696.39421645
+Covariance: 728.334230238
+Coefficient: 0.527783304562
+----------------------------
+Keypair: öa | Fit:  
+-0.0202 x - 4.958
+Yvals Variance: 79.3323290813
+yvals Variance: 3294.46058798
+Covariance: 82.2705634917
+Coefficient: 0.160926368625
+----------------------------
+Keypair: mö | Fit:  
+-0.9366 x - 104.2
+Yvals Variance: 2541.62620611
+yvals Variance: 5446.64477199
+Covariance: 2859.32948188
+Coefficient: 0.768499937439
+----------------------------
+Keypair: bh | Fit:  
+1.226 x
+Yvals Variance: 10404.0
+yvals Variance: 10404.0
+Covariance: 20808.0
+Coefficient: 2.0
+----------------------------
+Keypair: tw | Fit:  
+-0.04848 x + 8.296
+Yvals Variance: 78.7533063484
+yvals Variance: 5403.34983438
+Covariance: 81.5659244322
+Coefficient: 0.125038231174
+----------------------------
+Keypair: w< | Fit:  
+0.1898 x + 242.2
+Yvals Variance: 6941.34114331
+yvals Variance: 26381.4116168
+Covariance: 6997.77481114
+Coefficient: 0.51711752147
+----------------------------
+Keypair: ae | Fit:  
+-0.6865 x - 27.9
+Yvals Variance: 4907.04168602
+yvals Variance: 12423.7163516
+Covariance: 5003.25818967
+Coefficient: 0.640792289799
+----------------------------
+Keypair: uy | Fit:  
+-0.0618 x - 15.3
+Yvals Variance: 40.199227322
+yvals Variance: 1762.06566124
+Covariance: 42.5638877527
+Coefficient: 0.159926853428
+----------------------------
+Keypair: ky | Fit:  
+0.7792 x
+Yvals Variance: 10404.0
+yvals Variance: 10404.0
+Covariance: 20808.0
+Coefficient: 2.0
+----------------------------
+Keypair: u  | Fit:  
+-0.03608 x + 481.5
+Yvals Variance: 61.9358392535
+yvals Variance: 57261.2023056
+Covariance: 62.6820541843
+Coefficient: 0.0332844952815
+----------------------------
+Keypair: nm | Fit:  
+0.0142 x + 59.8
+Yvals Variance: 1.29294757628
+yvals Variance: 3255.67868948
+Covariance: 1.45456602331
+Coefficient: 0.022419308455
+----------------------------
+Keypair: bk | Fit:  
+-0.6815 x - 189.4
+Yvals Variance: 1014.58532803
+yvals Variance: 10093.9475521
+Covariance: 1067.98455582
+Coefficient: 0.3337260911
+----------------------------
+Keypair: ew | Fit:  
+-0.3419 x + 67.92
+Yvals Variance: 859.963152865
+yvals Variance: 7408.4339973
+Covariance: 945.959468151
+Coefficient: 0.374773952326
+----------------------------
+Keypair: yo | Fit:  
+0.01041 x + 116.1
+Yvals Variance: 3.78782268191
+yvals Variance: 18736.1029298
+Covariance: 3.84609687702
+Coefficient: 0.0144372928948
+----------------------------
+Keypair: nv | Fit:  
+-0.4051 x - 21.6
+Yvals Variance: 3741.54346254
+yvals Variance: 21023.0192646
+Covariance: 4209.23639536
+Coefficient: 0.474602886821
+----------------------------
+Keypair: eb | Fit:  
+0.5456 x + 132.1
+Yvals Variance: 18926.6492935
+yvals Variance: 25958.5377005
+Covariance: 19283.755884
+Coefficient: 0.869990771022
+----------------------------
+Keypair: bi | Fit:  
+-0.713 x - 242.1
+Yvals Variance: 3445.04211967
+yvals Variance: 29733.9943597
+Covariance: 3552.69968591
+Coefficient: 0.351022214892
+----------------------------
+Keypair: uä | Fit:  
+0.3572 x + 115.3
+Yvals Variance: 8889.81628733
+yvals Variance: 16887.4922801
+Covariance: 9573.64830943
+Coefficient: 0.781355178267
+----------------------------
+Keypair: oå | Fit:  
+-0.08408 x - 42.12
+Yvals Variance: 50.9231702991
+yvals Variance: 1956.6484457
+Covariance: 57.2885665865
+Coefficient: 0.181490475325
+----------------------------
+Keypair: åi | Fit:  
+0.05494 x - 18.13
+Yvals Variance: 86.3982231646
+yvals Variance: 1582.82654424
+Covariance: 89.5981573558
+Coefficient: 0.242286942954
+----------------------------
+Keypair:  b | Fit:  
+0.0209 x - 190.1
+Yvals Variance: 16.3323195889
+yvals Variance: 18365.5616135
+Covariance: 16.6188515115
+Coefficient: 0.0303441492582
+----------------------------
+Keypair: bv | Fit:  
+0.1346 x - 24.46
+Yvals Variance: 203.656874183
+yvals Variance: 1624.04455118
+Covariance: 232.750713352
+Coefficient: 0.404708675753
+----------------------------
+Keypair: jj | Fit:  
+-0.06488 x - 24.56
+Yvals Variance: 9.816966848
+yvals Variance: 4640.74010834
+Covariance: 10.5181787657
+Coefficient: 0.0492785887294
+----------------------------
+Keypair: co | Fit:  
+-0.5684 x - 1.767
+Yvals Variance: 16581.5886925
+yvals Variance: 31864.6890764
+Covariance: 17454.3038869
+Coefficient: 0.759337103358
+----------------------------
+Keypair: of | Fit:  
+-0.2528 x + 64.95
+Yvals Variance: 5964.99235402
+yvals Variance: 13648.8119187
+Covariance: 6462.07505019
+Coefficient: 0.716175776021
+----------------------------
+Keypair: fs | Fit:  
+-0.09651 x - 24.83
+Yvals Variance: 152.915007713
+yvals Variance: 1315.66348804
+Covariance: 174.760008814
+Coefficient: 0.389623004721
+----------------------------
+Keypair: rd | Fit:  
+-0.03614 x + 158.1
+Yvals Variance: 26.2688131549
+yvals Variance: 11769.9106418
+Covariance: 27.2069850532
+Coefficient: 0.0489298190263
+----------------------------
+Keypair: ex | Fit:  
+0.3456 x + 210
+Yvals Variance: 834.884362427
+yvals Variance: 18423.1152421
+Covariance: 954.153557059
+Coefficient: 0.243289617694
+----------------------------
+Keypair: xe | Fit:  
+0.9654 x - 151.8
+Yvals Variance: 12077.737412
+yvals Variance: 29268.4514349
+Covariance: 14090.6936473
+Coefficient: 0.749444900315
+----------------------------
+Keypair: ez | Fit:  
+-0.71 x + 116.6
+Yvals Variance: 3947.41037957
+yvals Variance: 21875.8982594
+Covariance: 4276.36124454
+Coefficient: 0.460188009007
+----------------------------
+Keypair: pr | Fit:  
+-0.2273 x - 66.31
+Yvals Variance: 7092.09413015
+yvals Variance: 10919.7343389
+Covariance: 7465.36224227
+Coefficient: 0.848315893847
+----------------------------
+Keypair: az | Fit:  
+0.2257 x + 85.8
+Yvals Variance: 245.635995763
+yvals Variance: 6705.67681905
+Covariance: 272.928884181
+Coefficient: 0.212658225557
+----------------------------
+Keypair: zz | Fit:  
+0.7647 x - 20.81
+Yvals Variance: 4677.5581512
+yvals Variance: 5272.1686173
+Covariance: 5613.06978144
+Coefficient: 1.13030642923
+----------------------------
+Keypair: za | Fit:  
+0.8846 x - 15.5
+Yvals Variance: 2777.22840991
+yvals Variance: 4448.78855161
+Covariance: 3332.6740919
+Coefficient: 0.948126234159
+----------------------------
+Keypair: ml | Fit:  
+0.9084 x - 47.35
+Yvals Variance: 8117.12524094
+yvals Variance: 9935.70081854
+Covariance: 8855.04571739
+Coefficient: 0.986030687745
+----------------------------
+Keypair: nq | Fit:  
+0.3874 x + 65.74
+Yvals Variance: 18120.4513967
+yvals Variance: 28036.0785395
+Covariance: 19630.4890131
+Coefficient: 0.870939481282
+----------------------------
+Keypair: q  | Fit:  
+0.2816 x + 296.4
+Yvals Variance: 16776.5447402
+yvals Variance: 42973.699717
+Covariance: 18174.5901352
+Coefficient: 0.676880485483
+----------------------------
+Keypair: m  | Fit:  
+0.1595 x + 104.5
+Yvals Variance: 3230.51554727
+yvals Variance: 19622.6250044
+Covariance: 3320.25209025
+Coefficient: 0.41701971663
+----------------------------
+Keypair:  å | Fit:  
+-0.999 x - 22.48
+Yvals Variance: 43612.3513216
+yvals Variance: 59125.6253313
+Covariance: 44283.3105727
+Coefficient: 0.872062188311
+----------------------------
+Keypair: hq | Fit:  
+0.2681 x + 46.66
+Yvals Variance: 4900.66095758
+yvals Variance: 9343.33348216
+Covariance: 5227.37168808
+Coefficient: 0.772511809908
+----------------------------
+Keypair: ue | Fit:  
+0.09478 x + 76.38
+Yvals Variance: 665.007034103
+yvals Variance: 4697.42928598
+Covariance: 720.424286945
+Coefficient: 0.407610253548
+----------------------------
+Keypair: eg | Fit:  
+-0.1059 x + 316.7
+Yvals Variance: 69.9242338949
+yvals Variance: 14518.019765
+Covariance: 72.6136275063
+Coefficient: 0.0720693463183
+----------------------------
+Keypair: g< | Fit:  
+0.3491 x + 38.26
+Yvals Variance: 12634.9036262
+yvals Variance: 20235.6996228
+Covariance: 13102.8630197
+Coefficient: 0.819447476078
+----------------------------
+Keypair: lw | Fit:  
+0.2391 x + 82.72
+Yvals Variance: 8805.55631242
+yvals Variance: 18682.7696006
+Covariance: 8971.69888435
+Coefficient: 0.699480578578
+----------------------------
+Keypair: wt | Fit:  
+-0.128 x + 38.47
+Yvals Variance: 369.52476898
+yvals Variance: 5429.29807431
+Covariance: 395.919395336
+Coefficient: 0.279520173805
+----------------------------
+Keypair: vt | Fit:  
+3.01 x
+Yvals Variance: 41616.0
+yvals Variance: 41616.0
+Covariance: 83232.0
+Coefficient: 2.0
+----------------------------
+Keypair:  w | Fit:  
+1.261 x + 175.5
+Yvals Variance: 102135.211141
+yvals Variance: 119319.093559
+Covariance: 106390.844939
+Coefficient: 0.963743672633
+----------------------------
+Keypair: np | Fit:  
+0.4782 x - 211.8
+Yvals Variance: 3963.53729949
+yvals Variance: 29125.6718152
+Covariance: 4091.39334141
+Coefficient: 0.380795478887
+----------------------------
+Keypair: yb | Fit:  
+0.2447 x + 282
+Yvals Variance: 412.262244486
+yvals Variance: 17834.3003241
+Covariance: 424.755039774
+Coefficient: 0.156647591176
+----------------------------
+Keypair: bä | Fit:  
+-0.4827 x + 2.198
+Yvals Variance: 8324.88978223
+yvals Variance: 11851.0701653
+Covariance: 8965.26591932
+Coefficient: 0.902599616884
+----------------------------
+Keypair: jd | Fit:  
+0.02333 x + 23.8
+Yvals Variance: 25.7967095408
+yvals Variance: 2927.75499411
+Covariance: 26.8285779224
+Coefficient: 0.097622096669
+----------------------------
+Keypair: öm | Fit:  
+-0.112 x + 64.44
+Yvals Variance: 94.6829064106
+yvals Variance: 7890.84626824
+Covariance: 99.9430678778
+Coefficient: 0.115625891691
+----------------------------
+Keypair: oö | Fit:  
+-0.006867 x + 140.9
+Yvals Variance: 0.208505071994
+yvals Variance: 13117.4334493
+Covariance: 0.212163055714
+Coefficient: 0.00405683192379
+----------------------------
+Keypair: iu | Fit:  
+0.387 x + 29.38
+Yvals Variance: 784.826949231
+yvals Variance: 3161.75257039
+Covariance: 856.174853706
+Coefficient: 0.543515050195
+----------------------------
+Keypair: ef | Fit:  
+0.2971 x + 100.9
+Yvals Variance: 625.110188298
+yvals Variance: 5592.4460364
+Covariance: 673.195587398
+Coefficient: 0.360049382932
+----------------------------
+Keypair: fe | Fit:  
+0.8177 x - 48.11
+Yvals Variance: 7844.64851022
+yvals Variance: 9870.7583027
+Covariance: 9413.57821227
+Coefficient: 1.06977570763
+----------------------------
+Keypair: nb | Fit:  
+-0.757 x - 81.57
+Yvals Variance: 6336.64184897
+yvals Variance: 12596.5545288
+Covariance: 7040.71316553
+Coefficient: 0.788063450109
+----------------------------
+Keypair: bo | Fit:  
+-1.307 x - 86.3
+Yvals Variance: 26078.0766754
+yvals Variance: 35432.9645478
+Covariance: 31293.6920105
+Coefficient: 1.02947375688
+----------------------------
+Keypair: eä | Fit:  
+0.2701 x + 227.1
+Yvals Variance: 12634.7231401
+yvals Variance: 41572.5328264
+Covariance: 13606.6249201
+Coefficient: 0.593696250079
+----------------------------
+Keypair: äö | Fit:  
+0.07912 x + 67.8
+Yvals Variance: 791.10839553
+yvals Variance: 8795.59249088
+Covariance: 801.65650747
+Coefficient: 0.303904951236
+----------------------------
+Keypair: tm | Fit:  
+0.3447 x + 282.4
+Yvals Variance: 6197.76381675
+yvals Variance: 30924.4891879
+Covariance: 6714.24413481
+Coefficient: 0.484985048491
+----------------------------
+Keypair: lb | Fit:  
+-0.4339 x - 51.95
+Yvals Variance: 2196.42912854
+yvals Variance: 8461.18816445
+Covariance: 2470.98276961
+Coefficient: 0.573185826924
+----------------------------
+Keypair: jl | Fit:  
+-0.02859 x - 15.86
+Yvals Variance: 10.5490626811
+yvals Variance: 2150.53074002
+Covariance: 11.3605290411
+Coefficient: 0.0754256032619
+----------------------------
+Keypair:  g | Fit:  
+1.071 x - 56.84
+Yvals Variance: 8449.98422084
+yvals Variance: 28798.763341
+Covariance: 9099.98300706
+Coefficient: 0.583345313114
+----------------------------
+Keypair: gu | Fit:  
+-1.098 x - 7.086
+Yvals Variance: 12435.5139602
+yvals Variance: 15520.3963289
+Covariance: 13817.2377335
+Coefficient: 0.994575957714
+----------------------------
+Keypair: ru | Fit:  
+-0.2116 x + 45.95
+Yvals Variance: 929.475269898
+yvals Variance: 4161.78476737
+Covariance: 1062.25745131
+Coefficient: 0.540096121325
+----------------------------
+Keypair: h  | Fit:  
+0.09958 x + 385.3
+Yvals Variance: 55.5924154456
+yvals Variance: 20289.5701988
+Covariance: 58.8625575306
+Coefficient: 0.0554236255894
+----------------------------
+Keypair: vr | Fit:  
+0.984 x - 43.03
+Yvals Variance: 25951.2233648
+yvals Variance: 30001.4393376
+Covariance: 29195.1262854
+Coefficient: 1.04631004543
+----------------------------
+Keypair: dy | Fit:  
+-0.5238 x - 14.69
+Yvals Variance: 7539.4903884
+yvals Variance: 10922.3222573
+Covariance: 7936.305672
+Coefficient: 0.874560579228
+----------------------------
+Keypair: ry | Fit:  
+-0.002253 x - 20.11
+Yvals Variance: 0.0645549518796
+yvals Variance: 404.813025028
+Covariance: 0.0774659422555
+Coefficient: 0.0151537035895
+----------------------------
+Keypair: öy | Fit:  
+0.2844 x + 5.006
+Yvals Variance: 5053.19163328
+yvals Variance: 11209.7759552
+Covariance: 5197.56853708
+Coefficient: 0.690587756289
+----------------------------
+Keypair: äw | Fit:  
+0.1644 x + 112.2
+Yvals Variance: 5917.08041522
+yvals Variance: 13305.0882409
+Covariance: 6508.78845674
+Coefficient: 0.73356320841
+----------------------------
+Keypair: kt | Fit:  
+0.3635 x + 71.57
+Yvals Variance: 4536.84866601
+yvals Variance: 14857.0091344
+Covariance: 5040.94296223
+Coefficient: 0.614000806833
+----------------------------
+Keypair: sh | Fit:  
+-0.1645 x + 181.7
+Yvals Variance: 1274.63821615
+yvals Variance: 15125.8987738
+Covariance: 1365.68380302
+Coefficient: 0.31102557111
+----------------------------
+Keypair: vv | Fit:  
+1.271 x - 2.089
+Yvals Variance: 1547.52563304
+yvals Variance: 2011.21643525
+Covariance: 1768.60072347
+Coefficient: 1.00249327514
+----------------------------
+Keypair: wn | Fit:  
+0.3375 x + 145.7
+Yvals Variance: 13077.4337319
+yvals Variance: 18821.8820656
+Covariance: 13580.4119524
+Coefficient: 0.865605796951
+----------------------------
+Keypair: uf | Fit:  
+-0.2711 x + 76.96
+Yvals Variance: 3831.07855739
+yvals Variance: 21398.9676463
+Covariance: 4378.37549416
+Coefficient: 0.483566341866
+----------------------------
+Keypair: kw | Fit:  
+0.27 x + 233.1
+Yvals Variance: 7586.66929774
+yvals Variance: 46968.3028755
+Covariance: 8218.89173922
+Coefficient: 0.435396816326
+----------------------------
+Keypair: dö | Fit:  
+-0.1113 x + 232.4
+Yvals Variance: 1595.23604891
+yvals Variance: 23392.231986
+Covariance: 1823.12691303
+Coefficient: 0.298447945399
+----------------------------
+Keypair: oä | Fit:  
+0.1516 x + 424.4
+Yvals Variance: 251.371982853
+yvals Variance: 37805.6510032
+Covariance: 265.337093011
+Coefficient: 0.0860718565824
+----------------------------
+Keypair: rå | Fit:  
+-0.4612 x + 486.6
+Yvals Variance: 15337.2216309
+yvals Variance: 44128.2943867
+Covariance: 15976.2725322
+Coefficient: 0.614106285912
+----------------------------
+Keypair: åp | Fit:  
+-0.2353 x - 24.78
+Yvals Variance: 460.413640125
+yvals Variance: 6307.05769202
+Covariance: 552.496368151
+Coefficient: 0.324221592783
+----------------------------
+Keypair: hn | Fit:  
+0.3886 x + 162.2
+Yvals Variance: 1476.30294821
+yvals Variance: 9681.7023275
+Covariance: 1537.81557105
+Coefficient: 0.406762256229
+----------------------------
+Keypair: ör | Fit:  
+0.2311 x + 128.3
+Yvals Variance: 6232.92734286
+yvals Variance: 34751.6985017
+Covariance: 6856.22007715
+Coefficient: 0.465854933873
+----------------------------
+Keypair: w  | Fit:  
+0.6149 x + 303.6
+Yvals Variance: 16212.8059478
+yvals Variance: 51419.7979758
+Covariance: 17834.0865426
+Coefficient: 0.617670122516
+----------------------------
+Keypair: <å | Fit:  
+0.1768 x - 263.4
+Yvals Variance: 401.119273568
+yvals Variance: 41391.9685619
+Covariance: 429.770650252
+Coefficient: 0.105473157548
+----------------------------
+Keypair: iw | Fit:  
+-0.0007874 x + 26.84
+Yvals Variance: 0.0700948391892
+yvals Variance: 10532.1800419
+Covariance: 0.0778831546548
+Coefficient: 0.00286643022878
+----------------------------
+Keypair: fi | Fit:  
+-0.3234 x - 87.95
+Yvals Variance: 5353.82441777
+yvals Variance: 8020.83640172
+Covariance: 6023.05246999
+Coefficient: 0.919125373295
+----------------------------
+Keypair: k  | Fit:  
+-0.02759 x - 72.71
+Yvals Variance: 6.4660200328
+yvals Variance: 42441.390956
+Covariance: 7.05384003578
+Coefficient: 0.0134651835969
+----------------------------
+Keypair: kq | Fit:  
+0.1807 x + 11.62
+Yvals Variance: 4949.71825101
+yvals Variance: 10468.9300799
+Covariance: 5939.66190121
+Coefficient: 0.825126120921
+----------------------------
+Keypair: q< | Fit:  
+0.1647 x + 173.9
+Yvals Variance: 7139.6284163
+yvals Variance: 17368.4173946
+Covariance: 7853.59125793
+Coefficient: 0.705261807954
+----------------------------
+Keypair: hr | Fit:  
+0.4755 x + 20.26
+Yvals Variance: 5876.30120403
+yvals Variance: 12958.2815769
+Covariance: 6463.93132443
+Coefficient: 0.740748879228
+----------------------------
