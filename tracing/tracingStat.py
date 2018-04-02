@@ -178,6 +178,15 @@ def dataFixed():
         pickle.dump(tracingFixedDict, f)                     
     return tracingFixedDict
 
+def dataByBlock(tracingFixedDictPath):
+    with open(os.path.join(pklFolder, tracingFixedDictPath), "rb") as f:
+        tracingFixedDict = pickle.load(f)
+    for b, v in tracingFixedDict.items():
+        print(b)
+        with open(os.path.join(pklFolder, "block" + b + ".pkl"), "wb") as f:
+            pickle.dump(v, f)
+    return 0
+
 def tracingDataMerge(tracingFixedDictPath):
     with open(os.path.join(pklFolder, tracingFixedDictPath), "rb") as f:
         tracingFixedDict = pickle.load(f)

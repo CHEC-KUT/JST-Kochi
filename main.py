@@ -6,6 +6,7 @@ __email__ = 'i@wangchen0413.cn'
 from tracing.tracingStat import *
 from tracing.tracingAlysis import *
 from tracing.tracingModel import *
+from tracing.tracingFeature import *
 
 '''
 ************************************************
@@ -16,6 +17,12 @@ from tracing.tracingModel import *
 if __name__ == '__main__':
     #dataProcessing()
     #dataFixed()
+    #dataByBlock("tracingFixedDict.pkl")
+
+    #IKIRawComputing()
+    #IKIBlockComputing()
+    IKIBlockVisual()
+
     #tracingDataMerge("tracingFixedDict.pkl")
     #tracingGraphGenerate("tracingDict.pkl")
     #speedGraphGenerate("speedDict.pkl")
@@ -29,7 +36,9 @@ if __name__ == '__main__':
     #tracingNormalPointRegress("tracingNormalPointFilterDict.pkl")
     #tracingNormalPointDrawing("tracingNormalPointDict.pkl", "parameterList.pkl")
     #tracingNormalPointDrawing("tracingNormalPointFilterDict.pkl", "parameterList.pkl")
+
     #dataOnME("tracingFixedDict.pkl")
     #speedOnME("meData.pkl")
     #vsulSpeedMe("meSpeed.pkl")
-    tracingRegression("tracingDict.pkl")
+
+    #tracingRegression("tracingDict.pkl")
