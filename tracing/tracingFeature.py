@@ -7,6 +7,7 @@ from functools import reduce
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.patches as mpatches
+from scipy.stats import f_oneway 
 
 # 
 def wpmComputing():
@@ -55,6 +56,7 @@ def IKIBlockVisual():
     plt.figure(figsize=(20,10))
     plt.xticks(list(range(502,522)))
     color = ['r','g','b','c']
+    dataList = []
     n = 0
     for b, t in IKIBlock.items():
         #print(b)
@@ -63,6 +65,7 @@ def IKIBlockVisual():
             #print(u)
             y.append(l)
         plt.plot(range(502,522), y, color=color[n])
+        dataList.append(y)
         
         print(np.mean(y))
         print(np.var(y))
@@ -74,6 +77,8 @@ def IKIBlockVisual():
     cyan = mpatches.Patch(color="c", label = "block" + str(4))
     plt.legend(handles=[red, green, blue, cyan])
     plt.savefig(os.path.join(graphFolder, "IKIBlock.jpg"))
+    f,p = f_oneway(dataList[0],dataList[1],dataList[2],dataList[3])    
+    print(f, p)
     return 1
     
             

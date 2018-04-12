@@ -7,6 +7,7 @@ from tracing.tracingStat import *
 from tracing.tracingAlysis import *
 from tracing.tracingModel import *
 from tracing.tracingFeature import *
+from speed.speedAlysis import *
 
 '''
 ************************************************
@@ -15,15 +16,18 @@ from tracing.tracingFeature import *
 '''
 
 if __name__ == '__main__':
+    # ***** Data Processing Part *****
     #dataProcessing()
     #dataFixed()
     #dataByBlock("tracingFixedDict.pkl")
+    #tracingDataMerge("tracingFixedDict.pkl")
 
+    # ***** Tracing Feature *****
     #IKIRawComputing()
     #IKIBlockComputing()
     IKIBlockVisual()
 
-    #tracingDataMerge("tracingFixedDict.pkl")
+    # ***** Tracing Analysis *****
     #tracingGraphGenerate("tracingDict.pkl")
     #speedGraphGenerate("speedDict.pkl")
     #keyPairFrequency("tracingDict.pkl")
@@ -36,9 +40,14 @@ if __name__ == '__main__':
     #tracingNormalPointRegress("tracingNormalPointFilterDict.pkl")
     #tracingNormalPointDrawing("tracingNormalPointDict.pkl", "parameterList.pkl")
     #tracingNormalPointDrawing("tracingNormalPointFilterDict.pkl", "parameterList.pkl")
+    #tracingRegression("tracingDict.pkl")
 
+    # ***** Speed Analysis *****
+    #speedByblock()
+    #speedBlockVisual()
+    #speedANOVA()
+
+    # ***** Test Part *****
     #dataOnME("tracingFixedDict.pkl")
     #speedOnME("meData.pkl")
     #vsulSpeedMe("meSpeed.pkl")
-
-    #tracingRegression("tracingDict.pkl")
