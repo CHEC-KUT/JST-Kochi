@@ -17,6 +17,7 @@ from speed.speedAlysis import *
 
 if __name__ == '__main__':
     # ***** Data Processing Part *****
+    GeneralDataProcessing()
     #dataProcessing()
     #dataFixed()
     #dataByBlock("tracingFixedDict.pkl")
@@ -25,7 +26,7 @@ if __name__ == '__main__':
     # ***** Tracing Feature *****
     #IKIRawComputing()
     #IKIBlockComputing()
-    IKIBlockVisual()
+    #IKIBlockVisual()
 
     # ***** Tracing Analysis *****
     #tracingGraphGenerate("tracingDict.pkl")

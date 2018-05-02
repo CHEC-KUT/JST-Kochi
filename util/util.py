@@ -20,6 +20,7 @@ graphFolder = os.path.join(srcFolder, "graph")
 bg = os.path.join(imgFolder, "back.png")
 
 fingerFolder_ = Folder + '/data/finger_/'
+fixationFolder_ = Folder + '/data/fixations_/'
 tlogFolder_ = Folder + '/data/tlogs_/'
 fingerFixedFolder_ = Folder + '/data/finger_fixed/'
 
