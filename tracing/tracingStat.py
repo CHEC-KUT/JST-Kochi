@@ -206,7 +206,7 @@ def tracingDataMerge(tracingFixedDictPath):
 
 '''
 ************************************************
-* - Data Functions
+* - Finger Data Functions
 ************************************************
 '''
 
@@ -220,6 +220,7 @@ def GeneralDataProcessing():
         try:
             tlogData = pd.read_csv(tlogFolder_ + 'tlog_' + i + '.csv').dropna()
             fingerData = pd.read_csv(fingerFolder_ + 'finger_' + i + '.csv')
+            fixationData = pd.read_csv(fixationFolder_ + 'fixations_' + i + '.csv')
 
         except FileNotFoundError as e:
             print('except:', e)
@@ -243,6 +244,8 @@ def GeneralDataProcessing():
             generalDict[current_user][current_block][current_sentence]['xf'] = []
             generalDict[current_user][current_block][current_sentence]['yf'] = []
             generalDict[current_user][current_block][current_sentence]['t'] = []
+            # Add Fixation Item
+
         lastActionItem = next(fingerData.iterrows()); lastTlogItem = next(tlogData.iterrows())
 
         for j in tlogData.iterrows():
@@ -256,6 +259,8 @@ def GeneralDataProcessing():
                 generalDict[current_user][current_block][current_sentence]['xf'].append([kb.key2xy(j[1]['message'])[0]])
                 generalDict[current_user][current_block][current_sentence]['yf'].append([kb.key2xy(j[1]['message'])[1]])
                 generalDict[current_user][current_block][current_sentence]['t'].append([j[1]['wordtime'] + timeDeviation])
+                # Add Fixation Item
+
             if len(j[1]['message']) > 1:
                 v = compareChar(j[1]['message'], lastTlogItem[1]['message'])
                 if v != 0:
@@ -272,6 +277,8 @@ def GeneralDataProcessing():
                     generalDict[current_user][current_block][current_sentence]['systemtime'].append(j[1]['systemtime'])
                     generalDict[current_user][current_block][current_sentence]['wordtime'].append(j[1]['wordtime'] + timeDeviation)
                     generalDict[current_user][current_block][current_sentence]['key'].append(key)
+                    # Add Fixation Item
+
                     lastKey = kb.key2xy(keyPair[0])
 
                     iterMarker = 0; x = []; y = []; t = []
@@ -293,12 +300,19 @@ def GeneralDataProcessing():
                     generalDict[current_user][current_block][current_sentence]['t'].append(t)
                     generalDict[current_user][current_block][current_sentence]['x'].append(x)
                     generalDict[current_user][current_block][current_sentence]['y'].append(y)
+                    print(x)
+                    print(t)
                     
                     xf, yf = dataFixedProcessing(x, y, lastKey)
+                    print(xf)
+
                     generalDict[current_user][current_block][current_sentence]['xf'].append(xf)
                     generalDict[current_user][current_block][current_sentence]['yf'].append(yf)
+
                     lastTlogItem = j            
                     print(key)
+                    print(generalDict)
+
     with open(os.path.join(pklFolder, "tracingTotalDict.pkl"),"wb") as k:
         pickle.dump(generalDict, k)
     print("End")
@@ -364,3 +378,137 @@ def dataFixedProcessing(x, y, lastKey):
         xf[2:-3] = map(lambda x: (1/(l-4))*(x1-x2) + x, xf[2:-3])
         yf[2:-3] = map(lambda y: (1/(l-4))*(y1-y2) + y, yf[2:-3])                     
     return xf[1:], yf[1:]
+
+    '''
+************************************************
+* - Finger Data Functions
+************************************************
+'''
+
+def GeneralDataProcessing():
+    generalDict = {}
+    mark = 0
+    kb = define_ex_kb()
+
+    # Initialization
+    for i in dataIndex():
+        try:
+            tlogData = pd.read_csv(tlogFolder_ + 'tlog_' + i + '.csv').dropna()
+            #fingerData = pd.read_csv(fingerFolder_ + 'finger_' + i + '.csv')
+            fixationData = pd.read_csv(fixationFolder_ + 'fixations_' + i + '.csv')
+
+        except FileNotFoundError as e:
+            print('except:', e)
+            continue
+        ubs = re.compile(r'(\d+)_(\d+)_(\d+)')
+        current_user = ubs.match(i).group(1)
+        current_block = ubs.match(i).group(2)
+        current_sentence = ubs.match(i).group(3)
+        print(current_sentence)
+        if current_user not in generalDict:
+            generalDict[current_user] = {}
+        if current_block not in generalDict[current_user]:
+            generalDict[current_user][current_block] = {}
+        if current_sentence not in generalDict[current_user][current_block]:
+            generalDict[current_user][current_block][current_sentence] = {}            
+            generalDict[current_user][current_block][current_sentence]['systemtime'] = []
+            generalDict[current_user][current_block][current_sentence]['wordtime'] = []
+            generalDict[current_user][current_block][current_sentence]['key'] = []
+            generalDict[current_user][current_block][current_sentence]['x'] = []
+            generalDict[current_user][current_block][current_sentence]['y'] = []
+            generalDict[current_user][current_block][current_sentence]['xf'] = []
+            generalDict[current_user][current_block][current_sentence]['yf'] = []
+            generalDict[current_user][current_block][current_sentence]['t'] = []
+            generalDict[current_user][current_block][current_sentence]['fixnum'] = []
+            generalDict[current_user][current_block][current_sentence]['fixdur'] = []
+
+        lastActionItem = next(fixationData.iterrows()); lastTlogItem = next(tlogData.iterrows())
+
+        for j in tlogData.iterrows():
+            if len(j[1]['message']) == 1:
+                if kb.key2xy(j[1]['message']) == False: continue
+                generalDict[current_user][current_block][current_sentence]['systemtime'].append(j[1]['systemtime'])
+                generalDict[current_user][current_block][current_sentence]['wordtime'].append(j[1]['wordtime'] + timeDeviation)
+                generalDict[current_user][current_block][current_sentence]['key'].append(j[1]['message'])
+                generalDict[current_user][current_block][current_sentence]['x'].append([kb.key2xy(j[1]['message'])[0]])
+                generalDict[current_user][current_block][current_sentence]['y'].append([kb.key2xy(j[1]['message'])[1]])
+                generalDict[current_user][current_block][current_sentence]['xf'].append([kb.key2xy(j[1]['message'])[0]])
+                generalDict[current_user][current_block][current_sentence]['yf'].append([kb.key2xy(j[1]['message'])[1]])
+                generalDict[current_user][current_block][current_sentence]['t'].append([j[1]['wordtime'] + timeDeviation])
+                generalDict[current_user][current_block][current_sentence]['fixnum'].append(-1)
+                generalDict[current_user][current_block][current_sentence]['fixdur'].append(-1)
+                # Add Fixation Item
+
+            if len(j[1]['message']) > 1:
+                v = compareChar(j[1]['message'], lastTlogItem[1]['message'])
+                if v != 0:
+                    if v == 1 and mark == 0:
+                        keyPair = j[1]['message'][-2:]; key = j[1]['message'][-1:]
+                    if v == 1 and mark != 0:
+                        keyPair = '<' + j[1]['message'][-1:]; key = j[1]['message'][-1:]; mark = 0
+                    if v == -1:
+                        keyPair = lastTlogItem[1]['message'][-1:] + '<'; key = '<' 
+                        mark += 1
+                        if mark > 1:
+                            keyPair = '<<'; key = '<'
+                    if kb.key2xy(keyPair[0]) == False or kb.key2xy(keyPair[1]) == False: continue
+                    generalDict[current_user][current_block][current_sentence]['systemtime'].append(j[1]['systemtime'])
+                    generalDict[current_user][current_block][current_sentence]['wordtime'].append(j[1]['wordtime'] + timeDeviation)
+                    generalDict[current_user][current_block][current_sentence]['key'].append(key)
+
+                    lastKey = kb.key2xy(keyPair[0])
+
+                    iterMarker = 0; x = []; y = []; t = []; fixnum = []; fixdur = []
+
+                    for v, k in enumerate(fixationData.iterrows()):
+                        # Fix the exception data in table for first two "if"
+                        if type(k[1]['trialtime']) == str:
+                            k[1]['trialtime'] = float(k[1]['trialtime'].split('.')[0] +'.000')
+                        if type(lastActionItem[1]['trialtime']) == str:
+                            lastActionItem[1]['trialtime'] = float(lastActionItem[1]['trialtime'].split('.')[0] +'.000')
+                        if k[1]['trialtime'] <= j[1]['wordtime'] + timeDeviation and k[1]['trialtime'] > timeDeviation and k[1]['trialtime'] > lastActionItem[1]['trialtime']:
+                            iterMarker = 1
+                            t.append(k[1]['trialtime']); x.append(x_cm2pic(k[1]['x'])); y.append(y_cm2pic(k[1]['y'])); fixnum.append(k[1]['fixnum']); fixdur.append(k[1]['fixdur']) 
+                            lastActionItem = k
+                        else:
+                            if iterMarker != 0:
+                                break
+                    t.append(j[1]['wordtime'] + timeDeviation); x.append(kb.key2xy(key)[0]); y.append(kb.key2xy(key)[1])
+                    generalDict[current_user][current_block][current_sentence]['t'].append(t)
+                    generalDict[current_user][current_block][current_sentence]['x'].append(x)
+                    generalDict[current_user][current_block][current_sentence]['y'].append(y)
+                    generalDict[current_user][current_block][current_sentence]['fixnum'].append(fixnum)
+                    generalDict[current_user][current_block][current_sentence]['fixdur'].append(fixdur)
+                    
+                    print(x)
+                    print(t)
+                    
+                    xf, yf = dataFixedProcessing(x, y, lastKey)
+                    print(xf)
+
+                    generalDict[current_user][current_block][current_sentence]['xf'].append(xf)
+                    generalDict[current_user][current_block][current_sentence]['yf'].append(yf)
+
+                    lastTlogItem = j            
+                    print(key)
+                    print(generalDict)
+
+    with open(os.path.join(pklFolder, "tracingTotalDict.pkl"),"wb") as k:
+        pickle.dump(generalDict, k)
+    print("End")
+    return generalDict
+# tracingDict = {"502": {"1": {"7": {
+#                                    "systemtime": [],
+#                                    "wordtime": [],
+#                                    "key": [],
+#                                    "x": [],
+#                                    "y": [],
+#                                    "xf": [],
+#                                    "yf": [],
+#                                    "t": [],
+#                                    "fixnum": [],
+#                                    "fixdur": [],    
+#                                    }, "15": {...}
+#                               }, "2": {...}
+#                        }, "503":{...}, ...
+#                }
