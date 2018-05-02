@@ -17,7 +17,8 @@ from speed.speedAlysis import *
 
 if __name__ == '__main__':
     # ***** Data Processing Part *****
-    GeneralDataProcessing()
+    GeneralFixationDataProcessing()
+    #GeneralDataProcessing()
     #dataProcessing()
     #dataFixed()
     #dataByBlock("tracingFixedDict.pkl")

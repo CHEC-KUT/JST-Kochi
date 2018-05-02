@@ -385,7 +385,7 @@ def dataFixedProcessing(x, y, lastKey):
 ************************************************
 '''
 
-def GeneralDataProcessing():
+def GeneralFixationDataProcessing():
     generalDict = {}
     mark = 0
     kb = define_ex_kb()
@@ -456,16 +456,14 @@ def GeneralDataProcessing():
                     generalDict[current_user][current_block][current_sentence]['wordtime'].append(j[1]['wordtime'] + timeDeviation)
                     generalDict[current_user][current_block][current_sentence]['key'].append(key)
 
-                    lastKey = kb.key2xy(keyPair[0])
-
                     iterMarker = 0; x = []; y = []; t = []; fixnum = []; fixdur = []
 
                     for v, k in enumerate(fixationData.iterrows()):
                         # Fix the exception data in table for first two "if"
                         if type(k[1]['trialtime']) == str:
-                            k[1]['trialtime'] = float(k[1]['trialtime'].split('.')[0] +'.000')
-                        if type(lastActionItem[1]['trialtime']) == str:
-                            lastActionItem[1]['trialtime'] = float(lastActionItem[1]['trialtime'].split('.')[0] +'.000')
+                            continue
+                        if k[1]['trialtime'] > 100000:
+                            continue
                         if k[1]['trialtime'] <= j[1]['wordtime'] + timeDeviation and k[1]['trialtime'] > timeDeviation and k[1]['trialtime'] > lastActionItem[1]['trialtime']:
                             iterMarker = 1
                             t.append(k[1]['trialtime']); x.append(x_cm2pic(k[1]['x'])); y.append(y_cm2pic(k[1]['y'])); fixnum.append(k[1]['fixnum']); fixdur.append(k[1]['fixdur']) 
@@ -473,27 +471,28 @@ def GeneralDataProcessing():
                         else:
                             if iterMarker != 0:
                                 break
-                    t.append(j[1]['wordtime'] + timeDeviation); x.append(kb.key2xy(key)[0]); y.append(kb.key2xy(key)[1])
+                    #t.append(j[1]['wordtime'] + timeDeviation); x.append(kb.key2xy(key)[0]); y.append(kb.key2xy(key)[1]); fixnum.append(fixnum[-1]); fixdur.append(fixdur[-1]) 
                     generalDict[current_user][current_block][current_sentence]['t'].append(t)
                     generalDict[current_user][current_block][current_sentence]['x'].append(x)
                     generalDict[current_user][current_block][current_sentence]['y'].append(y)
                     generalDict[current_user][current_block][current_sentence]['fixnum'].append(fixnum)
                     generalDict[current_user][current_block][current_sentence]['fixdur'].append(fixdur)
+                    #print(fixnum)
+                    #print(fixdur)
+                    #print(x)
+                    #print(t)
                     
-                    print(x)
-                    print(t)
-                    
-                    xf, yf = dataFixedProcessing(x, y, lastKey)
-                    print(xf)
+                    xf, yf = fixationFixedProcessing(x, y, current_user, current_block )
+                    #print(xf)
 
                     generalDict[current_user][current_block][current_sentence]['xf'].append(xf)
                     generalDict[current_user][current_block][current_sentence]['yf'].append(yf)
 
                     lastTlogItem = j            
                     print(key)
-                    print(generalDict)
+                    #print(generalDict)
 
-    with open(os.path.join(pklFolder, "tracingTotalDict.pkl"),"wb") as k:
+    with open(os.path.join(pklFolder, "fixationTotalDict.pkl"),"wb") as k:
         pickle.dump(generalDict, k)
     print("End")
     return generalDict
@@ -512,3 +511,18 @@ def GeneralDataProcessing():
 #                               }, "2": {...}
 #                        }, "503":{...}, ...
 #                }
+
+def fixationFixedProcessing(x, y, user, block):
+    offsetD = readPickle('fixationOffset_R=300_withoutB&Space.pickle')
+    xf = []
+    yf = []
+    for i in range(len(x)):
+        xf.append(x[i]-offsetD[user][1][int(block)-1])
+        yf.append(y[i]-offsetD[user][2][int(block)-1])
+    return xf, yf
+
+def readPickle(filename):
+    # reload a file to a variable
+    with open(os.path.join(pklFolder, filename), 'rb') as file:
+        a_dict1 =pickle.load(file)
+    return a_dict1
