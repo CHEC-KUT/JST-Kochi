@@ -1,3 +1,5 @@
+# coding: utf-8
+
 #! /usr/bin/env python
 
 __author__ = 'WANG Chen'
@@ -40,9 +42,9 @@ def derivativeComputing(k1, k0):
     return derivative
 
 def compareChar(c1, c2):
-    if len(c1) > len(c2):
+    if len(str(c1)) > len(str(c2)):
         return 1
-    elif len(c1) == len(c2):
+    elif len(str(c1)) == len(str(c2)):
         return 0
     else:
         return -1
@@ -212,16 +214,17 @@ def tracingDataMerge(tracingFixedDictPath):
 
 def GeneralDataProcessing():
     generalDict = {}
-    mark = 0
     kb = define_ex_kb()
 
     # Initialization
     for i in dataIndex():
+        startMarker = 0
+        mark = 0
         try:
-            tlogData = pd.read_csv(tlogFolder_ + 'tlog_' + i + '.csv').dropna()
+            #if i != '503_1_128': continue
+            tlogData = pd.read_csv(tlogFolder_ + 'tlog_' + i + '.csv').replace(np.nan, '', regex=True)
             fingerData = pd.read_csv(fingerFolder_ + 'finger_' + i + '.csv')
-            fixationData = pd.read_csv(fixationFolder_ + 'fixations_' + i + '.csv')
-
+            #fixationData = pd.read_csv(fixationFolder_ + 'fixations_' + i + '.csv')
         except FileNotFoundError as e:
             print('except:', e)
             continue
@@ -244,12 +247,11 @@ def GeneralDataProcessing():
             generalDict[current_user][current_block][current_sentence]['xf'] = []
             generalDict[current_user][current_block][current_sentence]['yf'] = []
             generalDict[current_user][current_block][current_sentence]['t'] = []
-            # Add Fixation Item
 
         lastActionItem = next(fingerData.iterrows()); lastTlogItem = next(tlogData.iterrows())
 
         for j in tlogData.iterrows():
-            if len(j[1]['message']) == 1:
+            if len(str(j[1]['message'])) == 1 and startMarker == 0:
                 if kb.key2xy(j[1]['message']) == False: continue
                 generalDict[current_user][current_block][current_sentence]['systemtime'].append(j[1]['systemtime'])
                 generalDict[current_user][current_block][current_sentence]['wordtime'].append(j[1]['wordtime'] + timeDeviation)
@@ -259,10 +261,15 @@ def GeneralDataProcessing():
                 generalDict[current_user][current_block][current_sentence]['xf'].append([kb.key2xy(j[1]['message'])[0]])
                 generalDict[current_user][current_block][current_sentence]['yf'].append([kb.key2xy(j[1]['message'])[1]])
                 generalDict[current_user][current_block][current_sentence]['t'].append([j[1]['wordtime'] + timeDeviation])
-                # Add Fixation Item
-
-            if len(j[1]['message']) > 1:
+                startMarker = 1
+                print(j[1]['message'])
+                lastTlogItem = j 
+                continue
+                
+            if startMarker == 1:
                 v = compareChar(j[1]['message'], lastTlogItem[1]['message'])
+                #print(j[1]['message'], lastTlogItem[1]['message'])
+                #print(v)
                 if v != 0:
                     if v == 1 and mark == 0:
                         keyPair = j[1]['message'][-2:]; key = j[1]['message'][-1:]
@@ -273,11 +280,11 @@ def GeneralDataProcessing():
                         mark += 1
                         if mark > 1:
                             keyPair = '<<'; key = '<'
+                    if key == 'A': continue
                     if kb.key2xy(keyPair[0]) == False or kb.key2xy(keyPair[1]) == False: continue
                     generalDict[current_user][current_block][current_sentence]['systemtime'].append(j[1]['systemtime'])
                     generalDict[current_user][current_block][current_sentence]['wordtime'].append(j[1]['wordtime'] + timeDeviation)
                     generalDict[current_user][current_block][current_sentence]['key'].append(key)
-                    # Add Fixation Item
 
                     lastKey = kb.key2xy(keyPair[0])
 
@@ -300,18 +307,18 @@ def GeneralDataProcessing():
                     generalDict[current_user][current_block][current_sentence]['t'].append(t)
                     generalDict[current_user][current_block][current_sentence]['x'].append(x)
                     generalDict[current_user][current_block][current_sentence]['y'].append(y)
-                    print(x)
-                    print(t)
+                    #print(x)
+                    #print(t)
                     
                     xf, yf = dataFixedProcessing(x, y, lastKey)
-                    print(xf)
+                    #print(xf)
 
                     generalDict[current_user][current_block][current_sentence]['xf'].append(xf)
                     generalDict[current_user][current_block][current_sentence]['yf'].append(yf)
 
                     lastTlogItem = j            
                     print(key)
-                    print(generalDict)
+                    #print(generalDict)
 
     with open(os.path.join(pklFolder, "tracingTotalDict.pkl"),"wb") as k:
         pickle.dump(generalDict, k)
@@ -379,7 +386,7 @@ def dataFixedProcessing(x, y, lastKey):
         yf[2:-3] = map(lambda y: (1/(l-4))*(y1-y2) + y, yf[2:-3])                     
     return xf[1:], yf[1:]
 
-    '''
+'''
 ************************************************
 * - Finger Data Functions
 ************************************************
@@ -387,13 +394,14 @@ def dataFixedProcessing(x, y, lastKey):
 
 def GeneralFixationDataProcessing():
     generalDict = {}
-    mark = 0
     kb = define_ex_kb()
-
+    
     # Initialization
     for i in dataIndex():
+        startMarker = 0
+        mark = 0
         try:
-            tlogData = pd.read_csv(tlogFolder_ + 'tlog_' + i + '.csv').dropna()
+            tlogData = pd.read_csv(tlogFolder_ + 'tlog_' + i + '.csv').replace(np.nan, '', regex=True)
             #fingerData = pd.read_csv(fingerFolder_ + 'finger_' + i + '.csv')
             fixationData = pd.read_csv(fixationFolder_ + 'fixations_' + i + '.csv')
 
@@ -425,7 +433,7 @@ def GeneralFixationDataProcessing():
         lastActionItem = next(fixationData.iterrows()); lastTlogItem = next(tlogData.iterrows())
 
         for j in tlogData.iterrows():
-            if len(j[1]['message']) == 1:
+            if len(j[1]['message']) == 1 and startMarker == 0:
                 if kb.key2xy(j[1]['message']) == False: continue
                 generalDict[current_user][current_block][current_sentence]['systemtime'].append(j[1]['systemtime'])
                 generalDict[current_user][current_block][current_sentence]['wordtime'].append(j[1]['wordtime'] + timeDeviation)
@@ -437,9 +445,12 @@ def GeneralFixationDataProcessing():
                 generalDict[current_user][current_block][current_sentence]['t'].append([j[1]['wordtime'] + timeDeviation])
                 generalDict[current_user][current_block][current_sentence]['fixnum'].append(-1)
                 generalDict[current_user][current_block][current_sentence]['fixdur'].append(-1)
-                # Add Fixation Item
+                startMarker = 1
+                print(j[1]['message'])
+                lastTlogItem = j 
+                continue
 
-            if len(j[1]['message']) > 1:
+            if startMarker == 1:
                 v = compareChar(j[1]['message'], lastTlogItem[1]['message'])
                 if v != 0:
                     if v == 1 and mark == 0:
@@ -451,6 +462,7 @@ def GeneralFixationDataProcessing():
                         mark += 1
                         if mark > 1:
                             keyPair = '<<'; key = '<'
+                    if key == 'A': continue
                     if kb.key2xy(keyPair[0]) == False or kb.key2xy(keyPair[1]) == False: continue
                     generalDict[current_user][current_block][current_sentence]['systemtime'].append(j[1]['systemtime'])
                     generalDict[current_user][current_block][current_sentence]['wordtime'].append(j[1]['wordtime'] + timeDeviation)
