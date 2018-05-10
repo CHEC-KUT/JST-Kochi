@@ -280,7 +280,7 @@ def GeneralDataProcessing():
                         mark += 1
                         if mark > 1:
                             keyPair = '<<'; key = '<'
-                    if key == 'A': continue
+                    #if key == 'A': continue
                     if kb.key2xy(keyPair[0]) == False or kb.key2xy(keyPair[1]) == False: continue
                     generalDict[current_user][current_block][current_sentence]['systemtime'].append(j[1]['systemtime'])
                     generalDict[current_user][current_block][current_sentence]['wordtime'].append(j[1]['wordtime'] + timeDeviation)
@@ -462,7 +462,7 @@ def GeneralFixationDataProcessing():
                         mark += 1
                         if mark > 1:
                             keyPair = '<<'; key = '<'
-                    if key == 'A': continue
+                    #if key == 'A': continue
                     if kb.key2xy(keyPair[0]) == False or kb.key2xy(keyPair[1]) == False: continue
                     generalDict[current_user][current_block][current_sentence]['systemtime'].append(j[1]['systemtime'])
                     generalDict[current_user][current_block][current_sentence]['wordtime'].append(j[1]['wordtime'] + timeDeviation)
