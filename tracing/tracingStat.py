@@ -221,7 +221,7 @@ def GeneralDataProcessing():
         startMarker = 0
         mark = 0
         try:
-            #if i != '503_1_128': continue
+            #if i != '505_1_4': continue
             tlogData = pd.read_csv(tlogFolder_ + 'tlog_' + i + '.csv').replace(np.nan, '', regex=True)
             fingerData = pd.read_csv(fingerFolder_ + 'finger_' + i + '.csv')
             #fixationData = pd.read_csv(fixationFolder_ + 'fixations_' + i + '.csv')
@@ -252,7 +252,9 @@ def GeneralDataProcessing():
 
         for j in tlogData.iterrows():
             if len(str(j[1]['message'])) == 1 and startMarker == 0:
-                if kb.key2xy(j[1]['message']) == False: continue
+                if kb.key2xy(j[1]['message']) == False: 
+                    lastTlogItem = j 
+                    continue
                 generalDict[current_user][current_block][current_sentence]['systemtime'].append(j[1]['systemtime'])
                 generalDict[current_user][current_block][current_sentence]['wordtime'].append(j[1]['wordtime'] + timeDeviation)
                 generalDict[current_user][current_block][current_sentence]['key'].append(j[1]['message'])
@@ -280,8 +282,11 @@ def GeneralDataProcessing():
                         mark += 1
                         if mark > 1:
                             keyPair = '<<'; key = '<'
-                    #if key == 'A': continue
-                    if kb.key2xy(keyPair[0]) == False or kb.key2xy(keyPair[1]) == False: continue
+                    
+                    if kb.key2xy(keyPair[0]) == False or kb.key2xy(keyPair[1]) == False: 
+                        lastTlogItem = j
+                        continue
+                        
                     generalDict[current_user][current_block][current_sentence]['systemtime'].append(j[1]['systemtime'])
                     generalDict[current_user][current_block][current_sentence]['wordtime'].append(j[1]['wordtime'] + timeDeviation)
                     generalDict[current_user][current_block][current_sentence]['key'].append(key)
@@ -434,7 +439,9 @@ def GeneralFixationDataProcessing():
 
         for j in tlogData.iterrows():
             if len(j[1]['message']) == 1 and startMarker == 0:
-                if kb.key2xy(j[1]['message']) == False: continue
+                if kb.key2xy(j[1]['message']) == False: 
+                    lastTlogItem = j 
+                    continue
                 generalDict[current_user][current_block][current_sentence]['systemtime'].append(j[1]['systemtime'])
                 generalDict[current_user][current_block][current_sentence]['wordtime'].append(j[1]['wordtime'] + timeDeviation)
                 generalDict[current_user][current_block][current_sentence]['key'].append(j[1]['message'])
@@ -463,7 +470,9 @@ def GeneralFixationDataProcessing():
                         if mark > 1:
                             keyPair = '<<'; key = '<'
                     #if key == 'A': continue
-                    if kb.key2xy(keyPair[0]) == False or kb.key2xy(keyPair[1]) == False: continue
+                    if kb.key2xy(keyPair[0]) == False or kb.key2xy(keyPair[1]) == False: 
+                        lastTlogItem = j 
+                        continue
                     generalDict[current_user][current_block][current_sentence]['systemtime'].append(j[1]['systemtime'])
                     generalDict[current_user][current_block][current_sentence]['wordtime'].append(j[1]['wordtime'] + timeDeviation)
                     generalDict[current_user][current_block][current_sentence]['key'].append(key)
