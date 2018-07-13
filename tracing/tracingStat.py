@@ -388,7 +388,9 @@ def dataFixedProcessing(x, y, lastKey):
         else:
             y2 = 0
         xf[2:-3] = map(lambda x: (1/(l-4))*(x1-x2) + x, xf[2:-3])
-        yf[2:-3] = map(lambda y: (1/(l-4))*(y1-y2) + y, yf[2:-3])                     
+        yf[2:-3] = map(lambda y: (1/(l-4))*(y1-y2) + y, yf[2:-3]) 
+        # xf[2:-3] = map(lambda x: (1/2)*(x1+x2) + x, xf[2:-3])
+        # yf[2:-3] = map(lambda y: (1/2)*(y1+y2) + y, yf[2:-3])                    
     return xf[1:], yf[1:]
 
 '''
